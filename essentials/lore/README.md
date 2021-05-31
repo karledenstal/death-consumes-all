@@ -1,6 +1,6 @@
 # BESTIARY LORE
 
-[ ] Witches
+[/] Witches
 
 [x] Liches
 
