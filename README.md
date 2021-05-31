@@ -10,3 +10,6 @@ Nätterna är däremot något som alltid varit fylld med kontrovers. Många jour
 
 Din historia börjar här. I Himmelfjord. Den norska staden där döden är lika vardaglig som att gå på pubben en fredag kväll. Vare sig du är lyckligt ovetandes, en skeptiker eller en del av fenomen som pågår i Himmelfjord, det är upp till dig.
 
+## Ont vs Gott
+
+Tanken är inte att förse sidan med en kamp mellan svart & vitt, istället är allt en kamp om grått, där alla varelser är en del av balansen i världen.
