@@ -1,7 +1,5 @@
 # BESTIARY LORE
 
-Här hittar vi lore för våra varelser.
-
 [ ] Witches
 
 [x] Liches
