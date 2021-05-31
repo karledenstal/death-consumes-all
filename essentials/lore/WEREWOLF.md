@@ -18,6 +18,8 @@ Processen att förvandlas är dock fortfarande oerhört våldsam och plågsam oc
 
 Många varulvar har försökt spärra in sig själva innan en transformation för att undvika en massaker, men detta fungerar inte. Ju mättare än varulv är desto mer lugna är de och ju hungrigare de är desto mer kontroll tappar människan i varulven. Att kedja fast en hungrig varulv går därför inte. En varulv som går igenom vanliga transformationer äter tekniskt sett inte på en månad och är därför alltid väldigt hungrig de första timmarna i transformationen.
 
+Man kan inte födas till varulv utan det är något man måste bli. Så fort en varulv (som är transformerad) är inblandad på något sätt i en graviditet så kommer det att bli ett missfall då varulvsblodet är för starkt för det blivande barnet. Varulvar kan alltså inte få barn överhuvudtaget.
+
 ## Transformation
 
 De kan med ett bett eller djupt rivsår föra sin "smittan" (eller gåva) vidare till andra människor. Människor som är välsignade kan inte bli varulvar. Alla människor blir inte varulvar och behandlar man såret med Wolfsbane tidigt så kan man förhindra det.
@@ -49,9 +51,11 @@ Gäller för både människo- och ulvform.
 
 - __Strength:__ De är starkare än vanliga människor, och ännu starkare i sin ulvform.
 - __Stamina:__ De är snabbare än vanliga människor och ännu snabbare i sin ulvform.
+- __Heightened Senses:__ Bättre hörsel, lukt- och smaksinne, även bättre känsel.
 
 ## Weaknesses
 
 - __Silver:__ ör de silver än längre stund så får de synliga brännmärken.
 - __Wolfsbane:__ Tål inte doften av wolfsbane och blir svagare i dess närhet.
 - __Running Water:__ Fungerar som en barriär för varulvar, de kan inte korsa rinnande vatten i större mängder (som ett vattenfall). *Gäller enbart i varulvsform*.
+- __Pregnancy:__ Kan inte bli gravida eller göra någon gravid på grund av sitt beast-blood.
