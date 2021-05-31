@@ -1,0 +1,332 @@
+@import "init";
+
+.eureka-stats {
+  width: 1200px;
+  margin-left: -4rem;
+  margin-right: -4rem;
+  margin-bottom: -4rem;
+  background: var(--c1);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  .eureka-stats-title {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    position: relative;
+    z-index: 4;
+    background: var(--c1);
+    border-bottom: 1px solid var(--border);
+
+    .titles {
+      flex: 1;
+      padding: 10rem 6rem;
+      padding-top: 8rem;
+
+      em {
+        background: var(--gr2) no-repeat bottom left/100% 4px;
+        padding-bottom: 1rem;
+        margin-left: -6rem;
+        padding-left: 6rem;
+        width: 100%;
+        display: block;
+        font-family: var(--font4);
+        font-size: 6rem;
+      }
+    }
+
+    .controls {
+      width: 150px;
+      padding-right: 6rem;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+
+      svg {
+        cursor: pointer;
+
+        &.active {
+          color: var(--c3);
+        }
+
+        &:hover {
+          color: var(--c3);
+        }
+      }
+    }
+  }
+
+  .stats-content {
+    width: 1200px;
+    height: 600px;
+    transform: translateY(0);
+    transition: 0.25s all ease;
+
+    .page {
+      width: 100%;
+      height: 100%;
+      background: var(--secondary);
+
+      .recent-topics-area {
+        width: 100%;
+        height: 100%;
+        padding: 6rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        gap: 1rem;
+        margin: 0;
+        list-style: none;
+
+        li {
+          width: 100%;
+          height: 100%;
+          background: var(--c1);
+          border-radius: 3px;
+          padding: 2rem;
+          font-family: var(--font3);
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-size: 1.25rem;
+          border: 1px solid var(--secondary);
+
+          i {
+            display: block;
+            font-size: 1rem;
+            margin-top: 0.5rem;
+          }
+
+          .recent-topic-href {
+            display: block;
+            font-family: var(--font4);
+            text-transform: uppercase;
+            font-size: 2rem;
+            color: var(--c2);
+            white-space: nowrap;
+            overflow: hidden;
+            margin-bottom: 0.5rem;
+            max-width: 325px;
+            text-overflow: ellipsis;
+          }
+
+          .recent-topic-post {
+            background: var(--gr2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+        }
+      }
+
+      .board-stats-area {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        background: var(--c1);
+
+        .board-links {
+          width: 100%;
+          padding: 2rem 6rem;
+          border-top: 1px solid var(--border);
+          background: var(--secondary);
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: space-between;
+        }
+
+        .new-welcome {
+          width: 100%;
+          background: var(--accent);
+          border-bottom: 1px solid #333;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: space-between;
+          padding: 2rem;
+
+          .eureka-gif {
+            width: 75px;
+            height: 75px;
+            border-radius: 100%;
+            border: 1px solid var(--c3);
+            padding: 0.5rem;
+
+            img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              border-radius: 100%;
+            }
+          }
+
+          .welcome-user {
+            align-self: center;
+            flex: 1;
+            text-align: right;
+            color: #fff;
+            font-family: var(--font4);
+            text-transform: uppercase;
+            font-size: 3rem;
+            letter-spacing: 1px;
+
+            a {
+              background: var(--gr2);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+          }
+        }
+
+        .online-stats {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          height: 442px;
+
+          .online-now {
+            flex: 1;
+            padding: 4rem;
+
+            .online-now-title {
+              font-family: var(--font2);
+              font-size: 2.5rem;
+              text-transform: uppercase;
+              letter-spacing: 1px;
+              padding-bottom: 8px;
+              margin-bottom: 8px;
+              color: var(--color);
+              border-bottom: 1px solid var(--border);
+            }
+
+            .online-info {
+              font-family: var(--font3);
+              text-transform: uppercase;
+              font-size: 1.25rem;
+              letter-spacing: 1px;
+
+              b {
+                color: var(--c3);
+              }
+            }
+
+            .currently-online {
+              height: 280px;
+              overflow: auto;
+              margin-top: 24px;
+              font-family: var(--font3);
+              font-size: 2rem;
+              text-transform: lowercase;
+
+              a {
+                span {
+                  background: linear-gradient(
+                    -90deg,
+                    rgba(var(--mclr), 1) 0%,
+                    rgba(var(--hclr), 1) 50%,
+                    rgba(var(--gclr), 1) 100%
+                  );
+                  -webkit-background-clip: text;
+                  font-family: var(--font2);
+                  text-transform: uppercase;
+                  font-weight: 400;
+                  letter-spacing: 1px;
+                  -webkit-text-fill-color: transparent;
+                }
+              }
+            }
+          }
+
+          .general-stats {
+            width: 300px;
+            padding: 4rem;
+            display: flex;
+            background: var(--c1) var(--gr1);
+            flex-direction: column;
+            border-left: 1px solid var(--border);
+            border-right: 1px solid var(--border);
+
+            span {
+              text-align: center;
+              flex: 1;
+              margin-bottom: 2rem;
+
+              &:last-of-type {
+                margin-bottom: 0;
+              }
+
+              em {
+                font-family: var(--font4);
+                color: #fafafa;
+                text-shadow: 0 0 2px #000;
+                font-size: 2.5rem;
+                font-style: normal;
+                text-transform: uppercase;
+              }
+
+              strong {
+                font-family: var(--font3);
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                font-size: 1.5rem;
+                display: block;
+
+                colorize {
+                  background: var(--color) var(--gr3);
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                }
+              }
+            }
+          }
+
+          .online-today {
+            width: 300px;
+            padding: 4rem;
+
+            span.headline {
+              font-family: var(--font3);
+              font-size: 1.5rem;
+              letter-spacing: 1px;
+              display: inline-block;
+              border-bottom: 1px solid var(--color);
+              margin-bottom: 1rem;
+              text-transform: uppercase;
+            }
+
+            .recently-online, .birthday-list {
+              width: 100%;
+              height: 180px;
+              overflow: auto;
+              font-family: var(--font3);
+              font-size: 1.25rem;
+              letter-spacing: 1px;
+              text-transform: uppercase;
+              margin-bottom: 2rem;
+
+              a {
+                span {
+                  background: linear-gradient(
+                    -90deg,
+                    rgba(var(--mclr), 1) 0%,
+                    rgba(var(--hclr), 1) 50%,
+                    rgba(var(--gclr), 1) 100%
+                  );
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                }
+              }
+            }
+
+            .birthday-list {
+              height: 100px;
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

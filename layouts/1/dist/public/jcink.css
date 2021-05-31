@@ -1,0 +1,986 @@
+/*=============================================== *
+ * Jcink.com Forum Hosting Stylesheet
+ * ==============================================
+ * #Version:	1.0.2
+ *=============================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url("https://use.typekit.net/lif3osm.css");
+
+:root {
+  --font1: garamond-premier-pro, serif;
+  --font2: "Quicksand", sans-serif;
+  --font3: "Overpass Mono", monospace;
+  --font4: "Paytone One", sans-serif;
+  --unit: 8px;
+  --c2: #3a1c71;
+  --c3: #d76d77;
+  --c4: #ffaf7b;
+  --gr1: linear-gradient(
+    -90deg,
+    rgba(58, 28, 113, 0.2) 0%,
+    rgba(215, 109, 119, 0.2) 50%,
+    rgba(255, 175, 123, 0.2) 100%
+  );
+  --gr2: linear-gradient(
+    -90deg,
+    rgba(58, 28, 113, 1) 0%,
+    rgba(215, 109, 119, 1) 50%,
+    rgba(255, 175, 123, 1) 100%
+  );
+  --gr3: linear-gradient(
+    120deg,
+    rgba(58, 28, 113, 0.8) 0%,
+    rgba(215, 109, 119, 0.8) 50%,
+    rgba(255, 175, 123, 0.8) 100%
+  );
+  --c1: #fff;
+  --rgb1: 255, 255, 255;
+  --color: #111;
+  --border: #ccc;
+  --accent: #222;
+  --secondary: #fafafa;
+  --dark: #111;
+  --bg1: rgba(255, 255, 255, 0.6);
+  --header: url("https://files.jcink.net/uploads2/eurekau/light_header_2.jpg");
+  --themeimg: url("https://files.jcink.net/uploads2/eurekau/sun.png");
+  --themeswitch: #fdb813;
+  --accent: #222;
+  --dark: #111;
+}
+.dark,
+.light {
+  --accent: #222;
+  --dark: #111;
+}
+.light {
+  --c1: #fff;
+  --rgb1: 255, 255, 255;
+  --color: #111;
+  --border: #ccc;
+  --accent: #222;
+  --secondary: #fafafa;
+  --dark: #111;
+  --bg1: rgba(255, 255, 255, 0.6);
+  --header: url("https://files.jcink.net/uploads2/eurekau/light_header_2.jpg");
+  --themeimg: url("https://files.jcink.net/uploads2/eurekau/sun.png");
+  --themeswitch: #fdb813;
+
+}
+
+.dark {
+  --c1: #111;
+  --rgb1: 17, 17, 17;
+  --color: #fff;
+  --border: #333;
+  --accent: #222;
+  --secondary: #222;
+  --dark: #111;
+  --bg1: rgba(0, 0, 0, 0.8);
+  --header: url("https://files.jcink.net/uploads2/eurekau/dark_header.jpg");
+  --themeimg: url("https://files.jcink.net/uploads2/eurekau/moon.png");
+  --themeswitch: darkslateblue;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+::-webkit-scrollbar { background: var(--c1); width: 4px; }
+::-webkit-scrollbar-thumb { background: var(--gr3); }
+
+html { overflow-x: auto; font-size: 8px; scroll-behavior: smooth; } 
+form { display:inline; }
+
+.mcp-0, .acp-0, .m-2 { display: none!important; } .g-2 { display: flex !important; }
+
+#smilies-table img {
+    width: 24px!important;
+    height: 24px!important;
+    margin-bottom: 8px;
+}
+
+img[src*="twemoji"] {
+height: 1em!important;
+width: 1em!important;
+margin: 0 .05em 0 .1em;
+vertical-align: -0.1em!important;
+}
+
+/****************************************
+ Body Background & Text Style
+*****************************************/
+
+body { 
+  margin: 0;
+  font-size: 1rem;
+  font-family: var(--font2);
+  font-weight: 200;
+  background: #fff var(--gr1);
+  scroll-behavior: smooth;
+}
+
+body.light {
+  color: #111;
+}
+body.dark {
+  color: #fff;
+}
+
+#s-m-t-tooltip {
+  max-width: 300px;
+  z-index: 10000;
+  margin: 24px 14px 7px 12px;
+  padding: 7px 12px;
+  padding-bottom: 5px;
+  border: 1px solid #fff;
+  background: #fafafa;
+  border-radius: 6px;
+  font-size: 8px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #111;
+  font-family: var(--font3);
+}
+
+.theme-switch {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  overflow: hidden;
+  z-index: 10001;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  background: var(--themeswitch);
+  cursor: crosshair;
+  transition: 0.5s all ease;
+}
+.theme-switch img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  transition: 0.5s all ease;
+  position: absolute;
+}
+.dark .theme-switch img:first-child {
+  transform: translateY(0);
+}
+.dark .theme-switch img:nth-child(2) {
+  transform: translateY(100px);
+}
+.light .theme-switch img:first-child {
+  transform: translateY(-100px);
+}
+.light .theme-switch img:nth-child(2) {
+  transform: translateY(0);
+}
+
+/****************************************
+   Table Styles
+*****************************************/
+
+table, tr, td {
+	font-size: 1.75rem; 
+	color: var(--color); 
+}
+
+td {
+padding: 1rem;
+}
+
+/****************************************
+   Link colors
+*****************************************/
+
+a {
+text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  cursor: crosshair;
+}
+
+
+/****************************************
+   Profile styles 
+*****************************************/
+
+#profilename { 
+	font-size:28px;
+	font-weight:bold; 
+}
+
+#photowrap { 
+	padding:6px; 
+}
+
+#phototitle { 
+	font-size:24px; 
+	border-bottom:1px solid black;
+}
+
+#photoimg   { 
+	text-align:center; margin-top:15px; 
+} 
+
+/****************************************
+   UserCP/My Controls styles
+*****************************************/
+
+#ucpmenu { 
+border: 1px solid var(--border);
+background: var(--c1);
+color: var(--color);
+}
+
+#ucpmenu p  { 
+	padding:1rem; 
+	margin:0px;  
+font-size: 1.25rem;
+font-family: var(--font3);
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+#ucpcontent { 
+border: 1px solid var(--border);
+background: var(--c1);
+color: var(--color);
+}
+
+#ucpcontent p  { 
+	padding:10px;
+	margin:0px; 
+}
+
+/****************************************
+  Logo Strip
+*****************************************/
+
+#logostrip { 
+	display: none;
+}
+
+#logo { display: none; }
+
+
+#logo a, #logo a:hover {display: none;}
+
+/****************************************
+  Search Bar 
+*****************************************/
+
+#searchbar {
+	display: block;	
+	float: right;
+	position: relative;
+	right: 10px;
+	top: 8px;
+}
+
+#searchbar .search-container {
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.4) inset;
+    border: 1px solid #D8D8D8;
+    display: block;
+    height: 26px;
+    position: relative;
+    width: 200px;
+}
+
+#searchbar .search-input {
+	background: none repeat scroll 0 0 transparent;
+	border: 0;
+	color: #808080;
+	font-size: 12px;
+	width: 192px;
+	height: 26px;
+	font-family: Arial, sans-serif;
+	padding: 1px 0 0 8px;
+}
+
+#searchbar .search-input:focus {
+    color: #000000;
+}
+
+#searchbar .search-button {
+	background: #800000 url(//files.jcink.net/themes/default/magnifying-glass.png) no-repeat 50% 50%;
+	border: 0;
+	bottom: 0;
+	margin: 0;
+	border-radius: 0;
+	display: block;
+	height: 26px;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	text-indent: -3000em;
+	top: 0;
+	width: 26px;
+	cursor: pointer;
+	box-shadow: none;
+}
+
+/****************************************
+  Navigation Bar / Submenu
+*****************************************/
+
+#submenu  { display: none; }
+
+#navi br { 
+	display: none; 
+}
+
+#navstrip  {}
+#navstrip br { display:none; }
+
+/**************************************************
+ User Links Menu (Messages / View new posts / etc )
+***************************************************/
+
+#userlinks { display:none; }
+
+/****************************************
+   Topic View styles
+*****************************************/
+
+.activeuserstrip { 
+font-family: var(--font3);
+font-size: 1.25rem;
+text-transform: uppercase;
+letter-spacing: 1px;
+margin-top: 1rem;
+}
+
+.normalname { 
+	font-size: 12px; 
+	font-weight: bold; 
+	color: #003; 
+}
+
+.normalname a { 
+	font-size: 12px;
+}
+
+.unreg { 
+	font-size: 11px; 
+	font-weight: bold; 
+	color: #900; 
+}
+
+.post1 { 
+}
+
+.post2 { 
+}
+
+.postdetails { 
+	font-size: 10px; 
+}
+
+.postcolor   { 
+
+}
+
+.signature   { display: none; }
+
+
+/*******************************
+ Pagination e.g. [1],2,3 ...
+*******************************/
+
+.pagination .pagination_current, .pagination a {
+background: var(--c3);
+font-family: var(--font3);
+font-weight: bold;
+padding: 1rem 2rem;
+display: unset;
+}
+
+.pagination a:link, .pagination a:visited, .pagination a:active {
+
+}
+
+.pagination a:hover {
+background: var(--c4);
+}
+
+.pagination .pagination_current {
+background: var(--c2);
+mix-blend-mode: difference;
+filter: invert(1);
+color: #fff;
+}
+
+.pagination_first, .pagination_last, .pagination_page {
+
+}
+
+.pagination_pagetxt {
+    display:none;
+}
+
+/****************************************
+   Global general table/div row styles
+*****************************************/
+
+.row1,.row3,.row4,.row2 { 
+}
+
+#boardstats .row2 { 
+	text-align: center; 
+}
+
+.darkrow1 { 
+background: var(--gr2);
+font-family: var(--font3);
+font-size: 1.25rem;
+text-transform: uppercase;
+letter-spacing: 1px;
+}
+
+.darkrow2 { 
+	background-color: #D6D6D6; color:black; 
+}
+
+td.darkrow2 { 
+	display: none; 
+}
+
+.darkrow3 { 
+	background-color: #D6D6D6; 
+	color: #000; 
+	padding: 3px; 
+}
+
+.hlight {  }
+.dlight {  }
+
+
+/****************************************
+  Bar directly below the maintitles 
+*****************************************/
+
+.titlemedium { 
+background: var(--color);
+color: var(--c1);
+font-family: var(--font3);
+font-size: 1.25rem;
+letter-spacing: 1px;
+text-transform: uppercase;
+padding: 1rem;
+ }
+
+.titlemedium  a:link, .titlemedium  a:visited, .titlemedium  a:active  { 
+	text-decoration: none; 
+	color: #222; 
+}
+
+/****************************************
+  Table & Div Borders 
+*****************************************/
+
+.tableborder { 
+
+}
+
+.tablefill { 
+background: var(--c1);
+font-family: var(--font3);
+font-size: 1rem;
+}
+
+.tablepad {
+
+}
+
+.tablebasic {
+	width:100%; padding:0; margin:0px; border:0px; 
+}
+
+.plainborder { 
+
+}
+
+/****************************************
+  QUOTE and CODE BBCode boxes
+*****************************************/
+
+#QUOTE { 
+	white-space:normal; 
+	font-family: Arial, sans-serif; 
+	font-size: 11px; 
+	color: #333; 
+	background-color: #EFEFEF; 
+	border: 0px; 
+	padding:2px;
+	border:1px solid #555; 
+	margin-top:2px; 
+}
+
+#CODE  { 
+	white-space:normal; 
+	font-family: Courier, Courier New, Verdana, Arial;  
+	font-size: 11px; 
+	color: #333; 
+	background-color: #EFEFEF; 
+	border: 0px; 
+	padding:2px;
+	border:1px solid #555; 
+	margin-top:2px; 
+}
+
+
+/**********************************************
+  Input buttons, e.g. submit, text input, etc
+***********************************************/
+
+.button-large {
+  background: linear-gradient(120deg, rgba(192, 57, 43, 1), rgba(142, 68, 173, 1));
+  display: inline-block;
+  border: 1px solid var(--border);
+  font-family: var(--font4);
+  color: #fff;
+  text-shadow: 0 0 1px #000;
+  text-transform: uppercase;
+  padding: 2rem 3rem;
+  border-radius: 3px;
+  margin: 0.5rem;
+}
+
+
+.button-small {
+  background: linear-gradient(120deg, rgba(192, 57, 43, 1), rgba(142, 68, 173, 1));
+  display: inline-block;
+  border: 1px solid var(--border);
+  font-family: var(--font3);
+  color: #fff;
+  text-shadow: 0 0 1px #000;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  margin: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.post-buttons-top { margin-top: 3px; }
+
+.forminput, .codebuttons, .textinput, .radiobutton, .checkbox {
+background: var(--c1);
+font-family: var(--font3);
+font-size: 1.25rem;
+text-transform: uppercase;
+letter-spacing: 1px;
+color: var(--color);
+border: 1px solid var(--border);
+padding: 0.5rem 1rem;
+}
+
+textarea.forminput, textarea.textinput { width: 100%; text-transform: none; font-family:var(--font2); font-size: 1.75rem; font-weight: 300; }
+textarea[name=Post], #field_25_input, #field_26_input { height: 350px; }
+
+
+input[type=submit], input[type=button], input[type=reset] {
+background: var(--c1);
+font-family: var(--font3);
+font-size: 1.25rem;
+text-transform: uppercase;
+letter-spacing: 1px;
+border: 1px solid var(--border);
+padding: 0.5rem 1rem;
+border-radius: 3px;
+
+}
+
+.codebuttons  { 
+	font-size: 10px; 
+}
+
+
+/****************************************
+  Form table cell styles, left/right/top
+*****************************************/
+
+.pformstrip {
+}
+
+.pformleft  {  
+}
+
+.pformleftw { 
+
+}
+
+.pformright { 
+}
+
+
+/****************************************
+ Tabs on the portal profiles + sections
+*****************************************/
+
+.opentab {
+	color: #FFF;
+	padding:8px;float: left; width: auto;
+	background-color: #800000;
+        background-image: url(//files.jcink.net/themes/default/red-gradient.png);
+	margin-top:3px;
+	margin-right:2px;
+	font-size:11px;
+	border: #545454 1px solid;	
+}
+
+.closedtab {
+	color: #FFF;
+	padding:7px;float: left;width: auto;
+	background-color: #800000;
+        background-image: url(//files.jcink.net/themes/default/red-gradient.png);
+	margin-top:6px;
+	margin-right:2px;
+	font-size:11px;
+	border-top:   #545454 1px solid;
+	border-right: #545454 1px solid;
+	border-left:  #545454 1px solid;
+}
+
+.positiontab { 
+	height: 34px; margin-left: 2px;
+}
+
+/****************************************
+   Delete all cookies / mark read
+*****************************************/
+
+#delcookiesrow, #mark-as-read-subto { display:none; }
+
+#mark-as-read-subto {display: none;}
+
+
+/********************************
+	Miscellaneous
+********************************/
+
+/* image tag styles */
+img        { vertical-align:middle; border:0px }
+img.attach { border:2px outset #555;padding:2px }
+
+/* Forum Descriptions */
+.desc { font-size:11px; color: #000; }
+
+/* Edited by text */
+.edit { font-size: 9px }
+
+/* Topic Macros */
+
+.wrapmini { display: none; }
+
+/* Warning CSS */
+.warngood { color:green }
+.warnbad  { color:red }
+
+select.forminput {
+  background: var(--c1);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--color);
+  font-family: var(--font3);
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 4px 16px;
+font-size: 1.5rem;
+}
+
+/* Skin selector dropdown */
+#skin_selector { 
+	margin: 10px 0; 
+}
+
+
+/* Online users list row */
+.thin { 
+	padding:6px 0px 6px 0px;
+	line-height:140%;
+	margin:2px 0px 2px 0px;
+	border-top:1px solid #545454;
+	border-bottom:1px solid #545454;
+}
+
+/* Latest news area */
+.newstext { display:none; }
+
+/* Highlighted text in search */
+.searchlite { 
+	color:#F00;
+	font-weight:bold;  
+	background-color:#FF0; 
+}
+
+/****************************************
+ Mobile-specific Styles
+*****************************************/
+
+#mobile { 
+	background-color: #FBFBFB;
+}
+
+/***********************************
+ Copyright: Removal is against Terms
+************************************/
+
+.copyright { 
+background: #111
+    url(https://www.transparenttextures.com/patterns/fake-brick.png);
+  padding: 16px;
+  color: #fff;
+  font-family: var(--font3);
+  font-style: italic;
+  font-size: 1.5rem;
+  text-align: left;
+  line-height: 3rem; margin-bottom: -1px; margin-top: -1px;
+}
+
+.copyright a {
+background: var(--gr2) no-repeat bottom left/100% 1px;
+}
+
+#field-website, #field-location, #field-interests { display: none; }
+
+.default-title,
+a.eureka-link {
+  display: flex;
+  align-items: center;
+}
+a.eureka-link {
+  font-size: 1.75rem;
+  color: var(--color);
+  font-family: var(--font3);
+  transition: 0.25s all ease;
+}
+a.eureka-link.margin-left {
+  margin-left: 4rem;
+}
+a.eureka-link svg {
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+}
+a.eureka-link em {
+  display: block;
+  background: var(--gr2) no-repeat bottom left/100% 1px;
+  padding-bottom: 2px;
+  font-style: italic;
+}
+a.eureka-link:hover {
+  transform: scale(1.1);
+}
+.default-title {
+  font-family: var(--font4);
+  margin-bottom: 2rem;
+  padding: 8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  background: var(--c1);
+  border: 1px solid var(--border);
+}
+.default-title .bg {
+  width: 100%;
+  padding: 1px;
+  background: var(--c1) var(--gr2);
+}
+.default-title .bg .cont,
+.maintitle {
+  background: var(--c1);
+  color: var(--color);
+  position: relative;
+}
+.default-title .bg .cont {
+  font-size: 8rem;
+  padding: 4rem 8rem 5rem;
+}
+.default-title .bg .cont .collapsible {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 43%;
+  right: 8rem;
+  cursor: pointer;
+}
+.default-title .bg .cont .collapsible svg {
+  cursor: pointer;
+}
+.default-title .bg .cont a,
+.default-title .bg .cont strong {
+  font-weight: 400;
+  background: var(--gr2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.maintitle,
+.postlinksbar {
+  text-align: center;
+  border: 1px solid var(--border);
+}
+.maintitle {
+  width: 100%;
+  padding: 6rem 0;
+}
+.maintitle .topic-title-space {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  background: var(--themeimg);
+  background-size: cover;
+  width: 35px;
+  height: 35px;
+}
+.maintitle .topic-title {
+  font-family: var(--font4);
+  padding: 7rem 0 2rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  font-size: 6rem;
+  text-transform: uppercase;
+  background: var(--gr2) no-repeat bottom left/100% 5px;
+}
+.maintitle .topic-desc,
+.postlinksbar strong a {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: var(--font3);
+  display:block;
+}
+.maintitle .topic-desc {
+  font-style: italic;
+  margin-bottom: 7rem;
+  font-size: 1.5rem;
+}
+.postlinksbar {
+  background: #111
+    url(https://www.transparenttextures.com/patterns/fake-brick.png);
+  color: #111;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-top: 0;
+}
+.postlinksbar strong {
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.postlinksbar strong a {
+  background: var(--c4);
+  border-radius: 2px;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+}
+
+.maintitle {
+  font-family: var(--font4);
+  padding: 7rem;
+background: #111;
+color: #fff;
+  font-size: 5rem;
+  text-transform: uppercase;
+ border: 0;
+border-bottom: 1px solid var(--border);
+}
+
+.pformstrip {
+background: var(--accent);
+font-family: var(--font3);
+text-transform: uppercase;
+font-size: 1.5rem;
+color: #fff;
+font-weight: normal;
+letter-spacing: 1px;
+padding: 2rem;
+border: 1px solid var(--border);
+}
+
+.pformleft {
+background: var(--c1);
+color: var(--color);
+font-size: 1.25rem;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-family: var(--font3);
+border-top: 0;
+padding: 1rem;
+border-right: 1px solid var(--border);
+}
+
+.pformright {
+background: var(--secondary);
+color: var(--color);
+padding: 1rem;
+border-top: 0;
+}
+
+.ST .maintitle {
+background: var(--c1);
+    color: var(--color);
+border: 1px solid var(--border);
+border-bottom: 0;
+}
+
+#recent-topics { display: none; }
+
+.Post .maintitle { display: normal; }
+.Post .pformleft { width: 25%; }
+
+
+/****************************************
+Quote and Code with Clipboard
+--------------------------------------
+by widowspeak and cory of jcink support
+*****************************************/
+
+.codeblock {
+white-space: normal;
+}
+.quoteblock {
+white-space: normal;
+border: 0px;
+}
+.c-title, .q-title {
+padding: 1rem;
+text-transform: uppercase;
+letter-spacing: 1px;
+text-align: center;
+background-color: var(--accent);
+color: #fff;
+font-size: 1.25rem;
+font-family: var(--font3);
+   }
+   .c-title {
+cursor: pointer;
+   }
+   .q-title {
+text-align: right;
+}
+.codecon, .quotecon {
+background-color: var(--c1);
+}
+pre {
+padding: 3rem;
+white-space: pre-wrap;
+max-height: 250px;
+overflow-y: auto;
+text-align: left;
+margin: 0;
+}
+.quoteblock blockquote {
+padding: 1rem;
+margin: 0;
+}

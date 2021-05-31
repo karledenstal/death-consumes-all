@@ -1,0 +1,1016 @@
+@import "init";
+
+.eureka-call {
+  width: 380px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  margin: 2rem auto;
+  background: var(--c1)
+    linear-gradient(
+      120deg,
+      rgba(var(--mclr), 0.5) 0%,
+      rgba(var(--gclr), 0.5) 100%
+    );
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  .top-msg {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+    border-bottom: 1px solid var(--c1);
+
+    .closers {
+      red {
+        background-color: #ff605c;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+
+      yellow {
+        background-color: #ffbd44;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+
+      green {
+        background-color: #00ca4e;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+    }
+  }
+
+  .calls {
+    padding: 4rem;
+
+    p.desc {
+      padding: 0.5rem 4rem;
+      margin: 0;
+      border-left: 1px solid var(--c1);
+      font-size: 2.25rem;
+      line-height: 150%;
+    }
+
+    p.dialog {
+      display: block;
+      margin: 2rem 0;
+      background: var(--c1);
+      border-radius: 6px;
+      padding: 2rem;
+
+      strong,
+      em,
+      b,
+      i {
+        background: linear-gradient(
+            -90deg,
+            rgba(var(--mclr), 0.5) 0%,
+            rgba(var(--hclr), 0.5) 50%,
+            rgba(var(--gclr), 0.5) 100%
+          )
+          no-repeat bottom left/100% 1px;
+      }
+    }
+  }
+}
+
+.eureka-comm {
+  width: 380px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  margin: 2rem auto;
+  background: var(--c1)
+    linear-gradient(
+      120deg,
+      rgba(var(--mclr), 0.5) 0%,
+      rgba(var(--gclr), 0.5) 100%
+    );
+  display: flex;
+  flex-direction: column;
+
+  .top-msg {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+
+    .closers {
+      red {
+        background-color: #ff605c;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+
+      yellow {
+        background-color: #ffbd44;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+
+      green {
+        background-color: #00ca4e;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+    }
+  }
+
+  .to-whom {
+    padding: 6rem;
+
+    .emoji {
+      width: 45px;
+      height: 45px;
+      background-size: cover;
+      background-image: var(--emo);
+    }
+  }
+
+  .messages {
+    padding: 4rem;
+    padding-bottom: 8rem;
+    padding-top: 4rem;
+
+    p {
+      background: var(--c1);
+      color: var(--color);
+      font-family: var(--font2);
+      font-weight: 300;
+      line-height: 130%;
+      border-radius: 6px;
+      padding: 2.5rem;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.eurekagram {
+  width: 100%;
+  background: #111;
+  border-radius: 3px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+
+  .tops {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+    border-bottom: 1px solid #333;
+
+    .group-moji {
+      width: 25px;
+      height: 25px;
+      background-size: cover;
+      background-image: var(--emo);
+    }
+
+    .closers {
+      red {
+        background-color: #ff605c;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+
+      yellow {
+        background-color: #ffbd44;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+
+      green {
+        background-color: #00ca4e;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+    }
+  }
+
+  .gram-header {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+
+    .gram-pic {
+      border-radius: 100%;
+      width: 150px;
+      height: 150px;
+      animation: pulse 2s infinite;
+      transform: scale(1);
+      margin-right: 8rem;
+
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .gram-info {
+      width: 300px;
+
+      .gram-name {
+        font-family: var(--font4);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #fff;
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+
+        strong {
+          font-weight: normal;
+          border-bottom: 1px solid var(--hex3);
+        }
+      }
+
+      p {
+        font-family: var(--font2);
+        font-weight: 300;
+        font-size: 2.25rem;
+        line-height: 160%;
+        color: #fff;
+      }
+    }
+  }
+
+  .gram-contents {
+    background: var(--c1)
+      linear-gradient(
+        120deg,
+        rgba(var(--mclr), 0.5) 0%,
+        rgba(var(--hclr), 0.5) 50%,
+        rgba(var(--gclr), 0.5) 100%
+      );
+    padding: 4rem;
+
+    .content-wrapper {
+      width: 100%;
+      background: var(--c1);
+      border-radius: 3px;
+      padding: 4rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+
+      .emptys {
+        grid-column-start: span 3;
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .locked {
+          width: 60px;
+          height: 60px;
+          background-size: cover;
+          background-image: url("https://files.jcink.net/uploads2/eurekau/lock.png");
+          margin-bottom: 2rem;
+        }
+
+        .private-profile {
+          font-family: var(--font4);
+          font-size: 4rem;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+        }
+      }
+
+      img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 3px;
+        border: 3px solid var(--color);
+      }
+    }
+  }
+
+  .bottoms {
+    padding: 6rem 4rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      margin: 0 2rem;
+      font-family: var(--font3);
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #fff;
+
+      strong {
+        background: #fff
+          linear-gradient(
+            120deg,
+            rgba(var(--mclr), 1) 0%,
+            rgba(var(--hclr), 1) 50%,
+            rgba(var(--gclr), 1) 100%
+          );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+}
+
+.eurekagram-post {
+  width: 400px;
+  border-radius: 3px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  margin: 2rem auto;
+  background: var(--c1)
+    linear-gradient(
+      120deg,
+      rgba(var(--mclr), 0.5) 0%,
+      rgba(var(--hclr), 0.5) 50%,
+      rgba(var(--gclr), 0.5) 100%
+    );
+  display: flex;
+  flex-direction: column;
+
+  .tops {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+
+    .group-moji {
+      width: 25px;
+      height: 25px;
+      background-size: cover;
+      background-image: var(--emo);
+    }
+
+    .closers {
+      red {
+        background-color: #ff605c;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+
+      yellow {
+        background-color: #ffbd44;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+
+      green {
+        background-color: #00ca4e;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+    }
+  }
+
+  .eg-post-content {
+    padding: 2rem;
+
+    .eg-bg {
+      width: 100%;
+      background: var(--c1);
+      padding: 1rem;
+      border-radius: 3px;
+
+      img {
+        border-radius: 3px;
+        width: 100%;
+        display: block;
+      }
+    }
+
+    p {
+      background: var(--c1);
+      border-radius: 3px;
+      padding: 2rem;
+      font-size: 2.25rem;
+      line-height: 150%;
+      font-weight: 300;
+    }
+  }
+}
+
+@keyframes pulse {
+  0% {
+    // transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(var(--mclr), 0.7);
+  }
+
+  70% {
+    // transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(var(--mclr), 0);
+  }
+
+  100% {
+    // transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(var(--mclr), 0);
+  }
+}
+
+.eureka-tweet {
+  width: 400px;
+  border-radius: 3px;
+  margin: 2rem auto;
+  background: var(--c1)
+    linear-gradient(
+      120deg,
+      rgba(var(--mclr), 0.5) 0%,
+      rgba(var(--hclr), 0.5) 50%,
+      rgba(var(--gclr), 0.5) 100%
+    );
+
+  .toppers {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+
+    .twittcon {
+      width: 20px;
+      height: 20px;
+      background-size: cover;
+      background-image: url("https://files.jcink.net/uploads2/eurekau/twitter.png");
+    }
+
+    .closers {
+      red {
+        background-color: #ff605c;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+
+      yellow {
+        background-color: #ffbd44;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+        margin-left: 1rem;
+      }
+
+      green {
+        background-color: #00ca4e;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  .twitter-content {
+    padding: 4rem;
+    font-size: 2.5rem;
+
+    .bg {
+      width: 100%;
+      padding: 2rem;
+      background: var(--c1);
+      border-radius: 3px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .twitter-foot {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 6rem;
+    padding-top: 0;
+    padding-bottom: 4rem;
+    justify-content: space-between;
+    align-items: center;
+
+    .faux {
+      display: flex;
+      align-items: center;
+      font-family: var(--font3);
+      font-size: 1rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-left: 1rem;
+      margin-right: 1rem;
+
+      svg {
+        height: 1em;
+        width: auto;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}
+
+.eurekatwitter {
+  width: 600px;
+  border-radius: 3px;
+  margin: 2rem auto;
+  background: var(--c1)
+    linear-gradient(
+      120deg,
+      rgba(var(--mclr), 0.5) 0%,
+      rgba(var(--hclr), 0.5) 50%,
+      rgba(var(--gclr), 0.5) 100%
+    );
+
+  .toppers {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+
+    .twittcon {
+      width: 25px;
+      height: 25px;
+      background-size: cover;
+      background-image: url("https://files.jcink.net/uploads2/eurekau/twitter.png");
+    }
+
+    .closers {
+      red {
+        background-color: #ff605c;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+
+      yellow {
+        background-color: #ffbd44;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+
+      green {
+        background-color: #00ca4e;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+    }
+  }
+
+  .twitter-name {
+    padding: 6rem;
+    font-weight: 300;
+    font-size: 3rem;
+    color: var(--color);
+    line-height: 150%;
+    display: flex;
+    flex-flow: row wrap;
+
+    .twitt-image {
+      width: 150px;
+      height: 150px;
+      border: 1px solid var(--color);
+      padding: 1rem;
+      border-radius: 100%;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 100%;
+      }
+    }
+
+    .twitt-name {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font4);
+      font-size: 4rem;
+      letter-spacing: 1px;
+      text-shadow: 0 0 1px #000;
+      text-transform: uppercase;
+
+      .handle {
+        font-family: var(--font3);
+        font-size: 1.5rem;
+        color: #111;
+        text-shadow: none;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .twitt-stats {
+    background: var(--c1);
+    width: 100%;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding-bottom: 5.5rem;
+
+    .column {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .hashtag {
+        width: 25px;
+        height: 25px;
+        background-size: cover;
+        background-image: url("https://files.jcink.net/uploads2/eurekau/hashtag__1_.png");
+        transform: skewX(-10deg);
+        margin-bottom: 1rem;
+      }
+
+      .amount {
+        font-family: var(--font4);
+        letter-spacing: 1px;
+        font-size: 5rem;
+      }
+
+      .hashdesc {
+        font-family: var(--font3);
+        letter-spacing: 1px;
+        font-size: 1.25rem;
+        text-transform: uppercase;
+        color: var(--hex3);
+      }
+    }
+  }
+
+  .twitter-profile {
+    padding: 6rem;
+
+    .bg {
+      background: var(--c1);
+      padding: 4rem;
+      border-radius: 3px;
+      font-size: 2.25rem;
+    }
+  }
+}
+
+.eureka-match {
+  width: 450px;
+  border-radius: 3px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  margin: 2rem auto;
+  background: var(--c1)
+    linear-gradient(
+      120deg,
+      rgba(var(--mclr), 0.5) 0%,
+      rgba(var(--hclr), 0.5) 50%,
+      rgba(var(--gclr), 0.5) 100%
+    );
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  .top-msg {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+
+    .group-moji {
+      width: 25px;
+      height: 25px;
+      background-size: cover;
+      background-image: var(--emo);
+    }
+
+    .closers {
+      red {
+        background-color: #ff605c;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+
+      yellow {
+        background-color: #ffbd44;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+
+      green {
+        background-color: #00ca4e;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+    }
+  }
+
+  .image {
+    width: 100%;
+    background: var(--c1);
+    padding: 2rem;
+
+    img {
+      width: 100%;
+      border-radius: 3px;
+    }
+  }
+
+  .profile {
+    name {
+      padding: 4rem;
+      padding-bottom: 1rem;
+      display: block;
+      font-family: var(--font4);
+      font-size: 3rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: #fff;
+      text-shadow: 0 0 1px #000;
+    }
+
+    desc {
+      display: block;
+      width: calc(100% - 8rem);
+      margin: 0 auto;
+      margin-bottom: 4rem;
+      background: var(--c1);
+      color: var(--color);
+      border-radius: 3px;
+      padding: 2rem;
+      font-family: var(--font2);
+      font-size: 2.25rem;
+      line-height: 160%;
+      font-weight: 300;
+    }
+
+    pdisplay {
+      padding: 4rem;
+      padding-top: 0;
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    pill {
+      background: var(--c1);
+      color: var(--color);
+      border-radius: 20px;
+      padding: 1rem 2rem;
+      font-family: var(--font3);
+      font-size: 1rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+.eureka-swipe {
+  width: 280px;
+  border-radius: 3px;
+  background: var(--c1);
+  margin: 2rem auto;
+  padding: 2rem;
+
+  &.super {
+    .swipe-icon {
+      icon {
+        background-image: url("https://files.jcink.net/uploads2/eurekau/custom_icons/1c4598aa-heart.png");
+      }
+    }
+
+    status {
+      &:after {
+        content: "Super liked";
+      }
+    }
+  }
+
+  &.liked {
+    .swipe-icon {
+      icon {
+        background-image: url("https://files.jcink.net/uploads2/eurekau/custom_icons/fire.png");
+      }
+    }
+
+    status {
+      &:after {
+        content: "Liked";
+      }
+    }
+  }
+
+  &.disliked {
+    .swipe-icon {
+      icon {
+        background-image: url("https://files.jcink.net/uploads2/eurekau/custom_icons/dislike.png");
+      }
+    }
+
+    status {
+      &:after {
+        content: "Disliked";
+      }
+    }
+  }
+
+  .swipe-icon {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 2rem auto;
+
+    icon {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      display: block;
+    }
+  }
+
+  status {
+    display: block;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-family: var(--font4);
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--color);
+  }
+}
+
+.eureka-match-message {
+  width: 380px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+  margin: 2rem auto;
+  background: var(--c1)
+    linear-gradient(
+      120deg,
+      rgba(var(--mclr), 0.5) 0%,
+      rgba(var(--hclr), 0.5) 50%,
+      rgba(var(--gclr), 0.5) 100%
+    );
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  .top-msg {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+
+    .group-moji {
+      width: 25px;
+      height: 25px;
+      background-size: cover;
+      background-image: var(--emo);
+    }
+
+    .closers {
+      red {
+        background-color: #ff605c;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+
+      yellow {
+        background-color: #ffbd44;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+
+      green {
+        background-color: #00ca4e;
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        display: inline-block;
+      }
+    }
+  }
+
+  .headers {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    .connect {
+      font-family: var(--font3);
+      font-size: 1.5rem;
+    }
+
+    .whom {
+      font-family: var(--font4);
+      font-size: 3.5rem;
+      text-shadow: 0 0 1px #000;
+    }
+  }
+
+  .message-body {
+    width: 100%;
+    padding: 4rem;
+
+    br {
+      display: none;
+    }
+
+    p {
+      background: var(--c1);
+      padding: 2rem;
+      border-radius: 6px;
+      margin-bottom: 2rem;
+    }
+  }
+}

@@ -1,0 +1,263 @@
+@import "init";
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  cursor: crosshair;
+}
+
+html {
+  font-size: 8px;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-family: var(--font2);
+  font-weight: 200;
+  background: #fff var(--gr1);
+  scroll-behavior: smooth;
+
+  &.light {
+    color: #111;
+  }
+
+  &.dark {
+    color: #fff;
+  }
+}
+
+#s-m-t-tooltip {
+  max-width: 300px;
+  z-index: 10000;
+  margin: 24px 14px 7px 12px;
+  padding: 7px 12px;
+  padding-bottom: 5px;
+  border: 1px solid #fff;
+  background: #fafafa;
+  border-radius: 6px;
+  font-size: 8px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #111;
+  font-family: var(--font3);
+}
+
+.mcp-0, .acp-0, .m-2 { display: none; } .g-2 { display: block !important; }
+
+.theme-switch {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 6px;
+  overflow: hidden;
+  z-index: 10001;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  background: var(--themeswitch);
+  cursor: crosshair;
+  transition: 0.5s all ease;
+
+  img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    transition: 0.5s all ease;
+    position: absolute;
+  }
+}
+
+.dark {
+  .theme-switch {
+    img {
+      &:first-child {
+        transform: translateY(0);
+      }
+
+      &:nth-child(2) {
+        transform: translateY(100px);
+      }
+    }
+  }
+}
+
+.light {
+  .theme-switch {
+    img {
+      &:first-child {
+        transform: translateY(-100px);
+      }
+
+      &:nth-child(2) {
+        transform: translateY(0);
+      }
+    }
+  }
+}
+
+a.eureka-link {
+  font-family: var(--font3);
+  display: flex;
+  align-items: center;
+  font-size: 1.75rem;
+  color: var(--color);
+
+  &.margin-left {
+    margin-left: 4rem;
+  }
+
+  svg {
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+  }
+
+  em {
+    display: block;
+    background: var(--gr2) no-repeat bottom left/100% 1px;
+    padding-bottom: 2px;
+    font-style: italic;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.default-title {
+  font-family: var(--font4);
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+  background: var(--c1);
+  border: 1px solid var(--border);
+
+  .bg {
+    width: 100%;
+    padding: 1px;
+    background: var(--c1) var(--gr2);
+
+    .cont {
+      font-size: 8rem;
+      padding: 4rem 8rem 5rem 8rem;
+      position: relative;
+      background: var(--c1);
+      color: var(--color);
+
+      .collapsible {
+        position: absolute;
+        transform: translateY(-50%);
+        top: 43%;
+        right: 8rem;
+        cursor: pointer;
+        svg {
+          cursor: pointer;
+        }
+      }
+
+      a,
+      strong {
+        font-weight: normal;
+        background: var(--gr2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+  }
+}
+
+.maintitle {
+  width: 100%;
+  background: var(--c1);
+  color: var(--color);
+  position: relative;
+  padding: 6rem 0;
+  border: 1px solid var(--border);
+  text-align: center;
+
+  .topic-title-space {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    background: var(--themeimg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+  }
+
+  .topic-title {
+    font-family: var(--font4);
+    padding: 7rem 0 2rem 0;
+    margin-bottom: 2rem;
+    display: inline-block;
+    font-size: 6rem;
+    text-transform: uppercase;
+    background: var(--gr2) no-repeat bottom left/100% 5px;
+  }
+
+  .topic-desc {
+    font-family: var(--font3);
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    margin-bottom: 7rem;
+  }
+}
+
+.postlinksbar {
+  background: #111 url("https://www.transparenttextures.com/patterns/fake-brick.png");
+  color: #111;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border: 1px solid var(--border);
+  border-top: 0;
+
+  strong {
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    a {
+      background: var(--c4);
+      border-radius: 2px;
+      padding: 1rem 2rem;
+      font-size: 1.25rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-family: var(--font3);
+    }
+  }
+}
+
+.button-large {
+  background: var(--c1) var(--gr2);
+  display: inline-block;
+  border: 1px solid var(--border);
+  font-family: var(--font4);
+  color: #fff;
+  text-shadow: 0 0 1px #000;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  border-radius: 3px;
+  margin: 0.5rem;
+}

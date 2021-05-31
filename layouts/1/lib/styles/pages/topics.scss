@@ -1,0 +1,156 @@
+@import "../init";
+
+.topics-wrapper {
+  width: 100%;
+
+  .topics-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .topic-separator {
+      font-family: var(--font3);
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 2rem;
+      display: flex;
+      align-items: center;
+
+      strong {
+        background: var(--gr2) no-repeat bottom left/100% 1px;
+        font-weight: normal;
+        padding-bottom: 4px;
+      }
+
+      svg {
+        width: 12px;
+        height: 12px;
+        margin-right: 2rem;
+      }
+    }
+
+    .single-topic {
+      background: var(--c1);
+      width: 100%;
+      border: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+
+      .topic-headers {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        position: relative;
+
+        .topic-last-poster {
+          flex: 0 auto;
+          background: #111;
+          border-right: 1px solid var(--border);
+          padding: 4rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+
+          .gif-wrap {
+            width: 200px;
+            height: 200px;
+            padding: 1rem;
+            border: 1px solid var(--hex1);
+            border-radius: 100%;
+
+            img {
+              width: 100%;
+              height: 100%;
+              border-radius: 100%;
+              object-fit: cover;
+            }
+          }
+        }
+
+        .topic-titles {
+          flex: 1;
+          text-align: right;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          position: relative;
+
+          .topic-status {
+            position: absolute;
+            top: 2rem;
+            left: 2rem;
+          }
+
+          .topic-mod {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-family: var(--font3);
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-size: 1rem;
+
+            input[type="checkbox"] {
+              position: relative;
+              top: 2px;
+            }
+          }
+
+          .topic-abbr {
+            padding: 10rem 4rem;
+            display: flex;
+            flex-direction: column;
+
+            a.topic-href {
+              display: block;
+              margin-right: -4rem;
+              padding-bottom: 2rem;
+              margin-bottom: 2rem;
+              padding-right: 4rem;
+              text-align: right;
+              letter-spacing: 1px;
+              background: var(--gr2) no-repeat bottom left/100% 4px;
+              font-family: var(--font4);
+              font-size: 4rem;
+            }
+
+            .topic-descs {
+              text-align: right;
+              font-family: var(--font3);
+              font-size: 1.25rem;
+              letter-spacing: 1px;
+              text-transform: uppercase;
+            }
+          }
+
+          .roleplayers {
+            background: var(--secondary);
+            border-top: 1px solid var(--border);
+            display: flex;
+            flex-flow: row wrap;
+            padding: 1rem;
+            justify-content: center;
+            font-family: var(--font3);
+            font-size: 1rem;
+            text-transform: uppercase;
+            align-items: center;
+            letter-spacing: 1px;
+
+            .sep {
+              width: 4px;
+              height: 4px;
+              background: var(--c2);
+              border-radius: 100%;
+              margin: 0 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
