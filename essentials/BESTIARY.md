@@ -36,6 +36,14 @@ Ghouls _(eller bara Undead/Udøde)_ skapades av Liches. Av ren olycka faktiskt. 
 - __Weaknesses:__ TBD
 - __Alignment:__ Kan tillhöra vilken alignment som helst.
 
+## Human / Person
+
+Detta är en helt vanlig boende i Himmelfjord. De lever och bor i Himmelfjord och har inga speciella krafter.
+
+- __Strengths:__ TBD
+- __Weaknesses:__ TBD
+- __Alignment:__ Kan tillhöra vilken alignment som helst.
+
 ## Hagraven (förslag)
 
 En Hagraven är en häxa som kastat Hel åt sidan och blivit korrupt. På grund av detta så blir de deformerade och växer fjädrar då de börjar likna en kråka mer i utseendet. De har förmågan att ändra sitt utseende med magi under kortare perioder och de är oftast väldigt starka i elemental magi. Hagravens räknas som onda häxor allt som oftast och är de häxor man ofta läser om i barnsagor. Det går att "bota" sig från att vara en Hagraven, men då förlorar man både sina minnen och sina magiska krafter. Enbart kvinnor kan vara Hagravens.
