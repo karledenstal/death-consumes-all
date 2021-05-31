@@ -6,7 +6,7 @@
 
 [x] Blessed
 
-[ ] WEREWOLF
+[/] WEREWOLF
 
 [x] GHOUL
 
