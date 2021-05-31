@@ -33,6 +33,7 @@ Deras krafter beror helt och hållet på vilken Gud som valt dem. Män kan bli v
 ## Strengths
 
 - __Power:__ De har en kraft som de kan utnyttja som styrka.
+- __Werewolf Immunity:__ Deras välsignelse förhindrar dem från att bli varulvar vid bett eller rivsår.
 
 ## Weaknesses
 
