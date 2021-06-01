@@ -1,13 +1,13 @@
 # BESTIARY LORE
 
-[/] Witches
+- [/] Witches
 
-[x] Liches
+- [x] Liches
 
-[x] Blessed
+- [x] Blessed
 
-[/] WEREWOLF
+- [/] WEREWOLF
 
-[x] GHOUL
+- [x] GHOUL
 
-[ ] HUMAN
+- [ ] HUMAN
