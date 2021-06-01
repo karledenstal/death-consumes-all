@@ -1,12 +1,12 @@
 # WITCH
 
-Häxor är välsignade av Hel och är därför en naturlig del av världen, även om det inte är något som man direkt tror på i Himmelfjord.
+Häxor är välsignade av Freya eller Sif och är därför en naturlig del av världen och trots att den religionen inte längre är aktuellt i Himmelfjord och inte ens är nödvändigtvis något som ens häxorna tror eller bryr sig om, så kommer deras krafter från den källan.
 
 ## Origins
 
-Ingen vet egentligen när eller vart häxorna härstammar från, bara att de funnits sen föralltid. De är välsignade av Hel och troligtvis så tjänade häxorna henne.
+Ingen vet egentligen när eller vart häxorna härstammar från, bara att de funnits sen föralltid. De är välsignade av Freya och i början teoriserade man det som att häxor var änglar sända från ovan för att beskydda och hjälpa människor.
 
-Idag så är häxorna ganska självständiga och använder sig av de krafter de fått av Hel för att bevara balsensen i världen.
+I dagsläget så är häxor uppdelade i två olika häxsabbat. De är inte särskilt fientliga mot varandra, men sysslar med olika typer av magi, då ursprungshäxorna är välsignade av Freya, medan de andra är välsignade av Sif. Båda två är lika naturliga till världen, men behärskar olika former av krafter, även om de är väldigt lika varandra på många sätt.
 
 Många häxor har under tiden tjänat ett gott syfte och har varit med och format historien, men efter att ha blivit förrådda av en av sina egna, vilket ledde till det stora häxbålet i Himmelfjord under 1600-talet så har de varit mer enskilda och hämndlystna. Det gäller förstås inte alla, men många.
 
@@ -16,17 +16,39 @@ TBC
 
 ## Appearances
 
-På grund av att häxor är en naturlig del i världen så har de inga överdrivet tydliga tecken på att de är häxor. Med tanke på att de även har en aura som omfamnar människor så skulle de flesta människorna inte ens lägga märke till om någon var en häxa eller inte.
+Häxor har inga övertydliga tecken som visar att de är häxor. Häxorna är en del av naturen och världen så de är egentligen exakt lika "normala" som människor är. Tack vare sina sabbat så kan de dock ha vissa drag som utmärker de från andra.
 
-- Alla häxor är kvinnor.
-- Många häxor har många och underliga "tatueringar".
+__Sifsabbat:__
+- Det är vanligt för Sif-häxor att ha tatueringar som liknar runor av olika slag.
+- Deras hår är ofta långt och sammetslent, och de är även väldigt måna om det.
+- Ögonfärgen är oftast i jordiga toner, bruna och gröna.
+
+__Freyasabbat:__
+- Freya-häxor är oerhört vackra, vackrare än människor och Sif-häxor.
+- Har alltsomoftast mörkare toner i hårfärgen.
+- Har mer "onaturliga" ögonfärger.
 
 ## Powers
 
-- __Charmaura:__ Har en aura som kan användas för manipulera och kontrollera människor.
+__Gemensamma krafter:__
+
+- __Charmaura:__ Har en inbjudande aura som kan manipulera och kontrollera människor i stor mån.
 - __Herbalism:__ De kan använda sig av naturens naturliga magi. Bland annat för att skapa brygder av olika slag.
-- __Dark Arts:__ Välsignade av "Goddess of Death" så kan de använda sig av all svartmagi, precis som Liches.
 - __Divinity:__ De kan använda sig av teblad och stjärnorna för att spå framtiden.
+
+__Sifsabbat:__
+
+Som välsignade av Sif så har de krafter mer relaterade till naturen.
+
+- __Botanokinesis:__ Kan manipulera växter, blommor och natur.
+- __Magical Hair:__ Har magiskt hår som kan vävas till alla möjliga tänkbara föremål.
+
+__Freyasabbat:__
+
+Som välsignade av Freya så har de krafter mer relaterade till döden, kärlek och skönhet.
+
+- __Dark Arts:__ Kan kontrollera alla möjliga typer av svartmagi.
+- __Amokinesis:__ Kan kontrollera känslor så som kärlek och lust i viss mån.
 
 TBC
 
@@ -35,7 +57,5 @@ TBC
 TBC
 
 ## Weaknesses
-
-- __Helheim:__ De är odödiga så länge de kan ta sig till Helheim för att förstärka sig själv. Häxor behöver en stadig kontakt med Helheim för att överleva.
 
 TBC

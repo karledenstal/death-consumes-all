@@ -1,22 +1,20 @@
 # LICH
 
-De odöda mästarna som plågat Himmelfjord sedan urminnestider. Liches är inte något naturligt utan är skapat utav män i sökan på evigt liv. Förstås visade det sig att evigt liv innebar döden på ett eller annat sätt.
+De odöda mästarna som plågat Himmelfjord sedan urminnestider. Liches är inte något naturligt utan är skapat utav män i sökan på evigt liv, de har dock sen dess blivit välsignade av Hel i sina försök, och numera så är det de som Liches är hängivna åt. 
 
 ## Phylactery
 
-En Liches "Phylactery" är deras viktigaste ägodel. Detta är ett magiskt föremål i form av en behållare och det är i denna som en Lich håller sina levande själar. En Phylactery är aldrig full, det är den som en Lich använder sig av för att fortsätta sitt eviga liv och därför måste även en Lich kontinuerligt leta efter själar för att fortsätta leva. En Lich dör inte direkt om deras "Phylactery" får slut på själar (eller går sönder) utan de lider väldigt länge tills dess att de går bort för att tiden kommer ikapp deras kroppar. Det går *inte* att skapa en ny Phylactery om den går sönder.
+En Liches "Phylactery" är deras viktigaste ägodel. Detta är ett magiskt föremål i form av en behållare och det är i denna som en Lich håller sin själ i. Går deras Phylactery sönder så dör Lichen. Då Lichens kom till med hjälp av Hels välsignande så är Lichens Phylactery även en port för själar till Helheim, och en Lich måste fortsätta mata Helheim med sina själar för att inte sin egen själ ska dö. Detta var priset för att få evigt liv och därför gör detta Liches till nästan infött "onda" i sin Alignment.
 
 ## Origins
 
-Den allra första Lichen kom att bli i ett försök att uppnå evigt liv. Nekromantik är något som funnits längre än vad Lichdom har funnits och är grunden till Lichdom. Man vet inte när den första dök upp eller vart, men de har funnits i Himmelfjord nästan sedan stadens grundande.
+De allra första Licharna var från en början en kult som hängav sig till Hel. Efter många försök med både kannibalism, necrophili och andra hemska ritualer så blev de välsignade av Hel. Detta gav dem färdigheten att kontrollera de döda till viss mån, men främst av allt så lät det dem manipulera sina själar. Priset för evigt liv måste betalas på något sätt, och det är igenom att fortsätta mata själar till Helheim.
 
-För att bli en Lich måste man koppla en personlig behåller (en kista, en burk eller annat) till sig själv med magi. Man börjar sedan med att manipulera sin egen själ. Är man inte kraftfull i Nekromantik så dör man. Tanken är att separera sin själ från sin mänskliga kropp och på så sätt bevara sig själv för alltid. Så länge man har en kropp kan man dessutom byta kropp om det är så att sin nuvarande kropp håller på och dör.
+I dagsläget så är Liches oftast inte särskilt hängivna Hel, då de flesta såklart inte tror på gamla nordiska gudar och gudinnor. Liches finns dock ännu även om konsten är något bortglömd. De flesta som blir Liches i dagsläget blir det med hjälp av andra istället av egen förmåga, men det finns förstås de som kan och blir Liches själva.
 
-Man kan även bli en Lich med hjälp av en annan Lich och på så sätt inte behöva bemästra Nekromantik själv. Detta krävs dock förstås att man litar på den andra Lichen.
+Man blir oftast inte en Lich bara för att, oftast finns det ett syfte till det och trots det så är det många nyblivna Liches som *inte tycker om det*. Många tappar meningen med att leva, blir helt apatiska eller blir alldeles för makthungriga. Till följd är det många liches som helt enkelt tar livet av sig själv.
 
-## Feeding
-
-En Lich föder på andras själar med hjälp av sin skuggmagi och frambesvärjningar. De kan fånga själar i ädelstenar som de sedan kan använda för att ge till sin "Phylactery". På så sätt så kan de leva för alltid. En Lich kan även ta över en nyligen död människa för att ha en mänsklig form.
+Det är en plågsam process att uppnå Lichdom då man måste manipulera sin egen själ i den mån att man separerar den helt från sin kropp. Kroppen man har dör som vilken kropp som helst och istället har man en själslig skepnad. En själslig skepnad är formlös och rör sig långsamt, men man kan ta över sin gamla eller en ny död kropp om man så vill ha en mer mänsklig skepnad.
 
 ## Apperances
 
