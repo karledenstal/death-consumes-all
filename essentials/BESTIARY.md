@@ -6,7 +6,9 @@ Häxor och Liches är huvudvarelserna i Himmelfjord, men till följd av deras ma
 
 ## Witch / Heks
 
-Häxorna är välsignade av Hel själv och är den äldsta varelsen i Himmelfjord. De skapade varulvarna. Efter det stora häxbålet i Himmelfjord under 1700-talet så tillhör alla häxor ett häxsabbat där de ser efter varandra (även om de inte alltid är överens). Häxor är alltid kvinnor.
+Antingen välsignade av __Freya__ eller __Sif__
+
+Häxorna är välsignade av Freya och är den äldsta varelsen i Himmelfjord. Det är enbart kvinnor som kan bli häxor och man behöver inte bara Freyas välsignelse, men även sina medhäxors välsignelse, nu när alla häxor är en del av ett häxsabbat sedan häxbålet i Himmelfjord under 1600-talet (Himmelfjord Elden). De skapade varulvar till följd av häxbålet, men har längre ingen kontroll över dem utöver deras botemedel. Häxorna har varit en viktig del i historian och har på många sätt tillförit mycket gott i världen, men sedan häxbålet har många häxor isolerat sig mer för sin överlevnad.
 
 - __Strengths:__ TBD
 - __Weaknesses:__ TBD
@@ -14,15 +16,17 @@ Häxorna är välsignade av Hel själv och är den äldsta varelsen i Himmelfjor
 
 ## Lich
 
-Liches är en mänsklig skapelse och var oundviklig att dyka upp i Himmelfjord i och med deras närhet till döden. Liches är odöda magiker som specialiserar sig i svart magi och nekromantik. Att bli en Lich är inte lätt och det är ingenting man kan komma tillbaka ifrån. De är inte nödvändigtvis onda, men behöver själar till sin "Phylactery" för att kunna hålla sig i liv. De skapade Ghouls. Kvinnor kan vara Liches, är oftast män.
+Välsignade av __Hel__
+
+Liches är män och kvinnor som hängivt sig åt Hel (Goddess of the Dead) och blivit välsignade. De är de odödas mästare och är experter i svartmagi, däribland giftmagi, skuggmagi och nekromantik. Tekniskt sett kan vem som helst bli en Lich, men processen är utdragen, lång och plågsam. Man behöver inte nödvändigtvis vara ond för att bli eller vara en Lich, men själens bortkoppling från det mänskliga lämnar många med storhetsvansinne. Många blir även apatiska. De bevarar sin själv i vad som kallas för "Phylactery" och de måste hålla sin själ mätt med andra själar (helst oskyldiga). De skapade Ghouls.
 
 - __Strengths:__ TBD
 - __Weaknesses:__ TBD
-- __Alignment:__ Nekromantik och svartkonst är ont, så alla Liches har en Evil alignment, men behöver nödvändigtvis inte vara onda.
+- __Alignment:__ Nekromantik och svartkonst är ont, så alla Liches har en Evil alignment, men behöver nödvändigtvis inte vara onda, utan kan använda sin onda kraft till godhet också.
 
 ## Werewolf / Varulv
 
-Varulvar skapades av häxorna i och med en förbannelse och var till stor del (och många fortfarande är) slavar till häxorna. De första varulvarna var den grupp män och kvinnor som utförde Himmelfjords stora häxbål under 1700-talet. Trots att några håller sig kvar till de häxor som skapade dem, så har de allra flesta begett sig av på egen hand och brutit sig fri från häxornas kontroll och tillhör nu sina egna flockar.
+Varulvar skapades av häxorna i och med en förbannelse och var till stor del (och många fortfarande är) slavar till häxorna. De första varulvarna var den grupp män och kvinnor som utförde Himmelfjords stora häxbål under 1700-talet. Trots att några håller sig kvar till de häxor som skapade dem, så har de allra flesta begett sig av på egen hand och brutit sig fri från häxornas kontroll och tillhör nu sina egna flockar. Det går att bli botad sägs det, men enbart häxorna vet hur och om det ens går, det finns historier om att bli botad, men ingen vet om det faktiskt hänt.
 
 - __Strengths:__ Immun mot sjukdomar, förhöjda sinnen, TBC
 - __Weaknesses:__ Silver, TBC
@@ -30,7 +34,7 @@ Varulvar skapades av häxorna i och med en förbannelse och var till stor del (o
 
 ## Ghouls / Udøde
 
-Ghouls _(eller bara Undead/Udøde)_ skapades av Liches. Av ren olycka faktiskt. När de experimenterade med levande själar så blev Ghouls till slut sideffekten. De är odöda och de allra flesta Ghouls hatar Liches. På grund av att de inte lever så lider de av en kall kroppstemperatur och tycker inte om dagsljus.
+Ghouls _(eller bara Undead/Udøde)_ skapades av Liches. Av ren olycka faktiskt. När de experimenterade med levande själar så blev Ghouls till slut sideffekten. De är odöda och de allra flesta Ghouls hatar Liches. På grund av att de inte lever så lider de av en kall kroppstemperatur och tycker inte om dagsljus. De har även en del krafter att arbeta med och behöver inte oroa sig över sin kroppsligsa form tack vare att den själen de har bevarat i sin kropp håller ihop den och även kräver att kroppen fortsätter träna, äta och dricka.
 
 - __Strengths:__ TBD
 - __Weaknesses:__ TBD
@@ -44,21 +48,17 @@ Detta är en helt vanlig boende i Himmelfjord. De lever och bor i Himmelfjord oc
 - __Weaknesses:__ TBD
 - __Alignment:__ Kan tillhöra vilken alignment som helst.
 
-## Blessed / Velsignet
+## Wayfarer / Veifarande
 
-Dessa sällsynta individerna är välsignade av en nordisk gud. De är inte demigudar, utan är lika mänskliga som en vanlig människa, men innehar en speciell kraft beroende på vilken gud som välsignat dem. Det är inget man väljer eller bestämmer och inget man föds med, det går inte heller i generationer eller i generna. Istället väljs man av en Gud. För deras nöje eller av ett syfte vet man inte. Deras kraft kan även tas ifrån dem och Guden bestämmer det.
+Dessa individer är välsignade av Odin och de enda Wayfarers som finns är de som funnits sedan urminnestider. Wayfarers är mästare av kunskap, men har ingen magisk förmåga i sig. Dem är de enda som kan använda sig av runor för att utöva magi och dem är även de enda som kan utan tvekan se andra varelser för den de är. Wayfarers finns för att guida och hjälpa. De är enbart kapabla till passiv och helande magi med sina runor och kan inte orsaka skada med sina runor.
 
 - __Strengths:__ TBD
 - __Weaknesses:__ TBD
 - __Alignment:__ Kan tillhöra vilken alignment som helst.
 
-## Special Roles (förslag)
-
-- Hel (Goddess of Death)
-
 ## Hagraven (förslag)
 
-En Hagraven är en häxa som kastat Hel åt sidan och blivit korrupt. På grund av detta så blir de deformerade och växer fjädrar då de börjar likna en kråka mer i utseendet. De har förmågan att ändra sitt utseende med magi under kortare perioder och de är oftast väldigt starka i elemental magi. Hagravens räknas som onda häxor allt som oftast och är de häxor man ofta läser om i barnsagor. Det går att "bota" sig från att vara en Hagraven, men då förlorar man både sina minnen och sina magiska krafter. Enbart kvinnor kan vara Hagravens.
+En Hagraven är en häxa som kastat Freya åt sidan och blivit korrupt. På grund av detta så blir de deformerade och växer fjädrar då de börjar likna en kråka mer i utseendet. De har förmågan att ändra sitt utseende med magi under kortare perioder och de är oftast väldigt starka i elemental magi. Hagravens räknas som onda häxor allt som oftast och är de häxor man ofta läser om i barnsagor. Det går att "bota" sig från att vara en Hagraven, men då förlorar man både sina minnen och sina magiska krafter. Enbart kvinnor kan vara Hagravens.
 
 - __Strengths:__ TBD
 - __Weaknesses:__ TBD
