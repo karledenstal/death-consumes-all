@@ -22,7 +22,9 @@ body {
   font-size: 1rem;
   font-family: var(--font2);
   font-weight: 200;
-  background: #fff var(--gr1);
+  background: #000 var(--mainbg);
+  background-size: cover;
+  background-attachment: fixed;
   scroll-behavior: smooth;
 
   &.light {
