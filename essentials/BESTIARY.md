@@ -42,7 +42,7 @@ Ghouls _(eller bara Undead/Udøde)_ skapades av Liches. Av ren olycka faktiskt. 
 
 ## Human / Person
 
-Detta är en helt vanlig boende i Himmelfjord. De lever och bor i Himmelfjord och har inga speciella krafter.
+Detta är en helt vanlig boende i Himmelfjord. De lever och bor i Himmelfjord och har inga speciella krafter. Människor är dock på många sätt kärlet för att bli någon av de andra raserna. Det är även möjligt för människor att både tro på och jaga/leta dessa varelser som finns utspridda i Himmelfjord.
 
 - __Strengths:__ TBD
 - __Weaknesses:__ TBD
