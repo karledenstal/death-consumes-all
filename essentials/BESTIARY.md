@@ -1,4 +1,4 @@
-![Bestiary](https://github.com/karledenstal/death-consumes-all/blob/master/site/dca_bestiary.png?raw=true)
+![Bestiary](https://github.com/karledenstal/death-consumes-all/blob/master/readme/dca_bestiary.png?raw=true)
 
 Alla våra spelbara alternativ är roliga att spela med både för- och nackdelar som kan vara viktiga att ta sig an i en rollspelsmiljö. De flesta av raserna är inte gjorda för att vara kaotiska åt någon riktning i sin linjering, istället är det upp till spelaren hur pass mycket riktade de vill vara i sin linjering.
 
