@@ -4,7 +4,7 @@
 
 Döden är vardag i Himmelfjord vars mest kända plats är dess stora kyrkogård. Det är nästan så att överallt man går så blir man påmind om döden, då många butiker och restauranger passat på att döpa sig till något morbidt för att locka in de nyfikna turister som vallfärdar från hela världen till stadens kända kyrkogård. "Death Cove", "Forgotten Nest" och "InkBlood" är alla namn på verksamheter man kan tänkas passera när man går längs gatan.
 
-För de flesta i Himmelfjord är det inte särskilt konstigt eller ens något anmärkningsvärt. Himmelfjord har en rik historia och trots den mängden turister som kyrkogården lockar så är det inte något anmärkningsvärt för de vana invånarna i staden.
+För de flesta i Himmelfjord är det inte särskilt konstigt. Himmelfjord har en rik historia och trots den mängden turister som kyrkogården lockar så är det inte något anmärkningsvärt för de vana invånarna i staden.
 
 På dagarna är Himmelfjord som vilken annan norsk stad som helst. De allra flesta jobbar med fiske eller driver någon form av verksamhet och alldeles utanför staden så finns det många jobbmöjligheter i kärnkraftverket som förser många av städerna norr om Norge med energi.
 
