@@ -1,13 +1,13 @@
 # BESTIARY LORE
 
-- [ ] Witches
+- [ ] WITCHES
 
-- [x] Liches
-
-- [x] Blessed
+- [x] LICHES
 
 - [ ] WEREWOLF
 
 - [x] GHOUL
 
 - [ ] HUMAN
+
+- [ ] WAYFARER
