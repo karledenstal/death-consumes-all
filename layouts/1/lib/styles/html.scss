@@ -12,6 +12,40 @@ a {
   cursor: crosshair;
   font-family: var(--font2);
   letter-spacing: 1px;
+  position: relative;
+}
+
+a.glitch {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  cursor: crosshair;
+  font-family: var(--font2);
+  letter-spacing: 1px;
+  position: relative;
+
+  &:hover {
+    animation: glitch 1s linear infinite;
+  }
+}
+
+a.glitch:hover::before,
+a.glitch:hover:after{
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+a.glitch:hover:before{
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+a.glitch:hover:after{
+  animation: glitchBotom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
 }
 
 html {

@@ -50,7 +50,7 @@ $(function () {
 });
 
 $(function () {
-  $("[title]").style_my_tooltips({
+  $("[data-title]").style_my_tooltips({
     tip_follows_cursor: true,
     tip_delay_time: 000,
     tip_fade_speed: 250,

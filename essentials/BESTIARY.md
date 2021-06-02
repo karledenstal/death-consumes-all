@@ -58,7 +58,7 @@ Dessa individer är välsignade av Odin och de enda Wayfarers som finns är de s
 
 ## Hagraven (förslag)
 
-En Hagraven är en häxa som kastat Freya åt sidan och blivit korrupt. På grund av detta så blir de deformerade och växer fjädrar då de börjar likna en kråka mer i utseendet. De har förmågan att ändra sitt utseende med magi under kortare perioder och de är oftast väldigt starka i elemental magi. Hagravens räknas som onda häxor allt som oftast och är de häxor man ofta läser om i barnsagor. Det går att "bota" sig från att vara en Hagraven, men då förlorar man både sina minnen och sina magiska krafter. Enbart kvinnor kan vara Hagravens.
+En Hagraven är en häxa som kastat Freya/Sif åt sidan och blivit korrupt. På grund av detta så blir de deformerade och växer fjädrar då de börjar likna en kråka mer i utseendet. De har förmågan att ändra sitt utseende med magi under kortare perioder och de är oftast väldigt starka i elemental magi. Hagravens räknas som onda häxor allt som oftast och är de häxor man ofta läser om i barnsagor. Det går att "bota" sig från att vara en Hagraven, men då förlorar man både sina minnen och sina magiska krafter. Enbart kvinnor kan vara Hagravens.
 
 - __Strengths:__ TBD
 - __Weaknesses:__ TBD
