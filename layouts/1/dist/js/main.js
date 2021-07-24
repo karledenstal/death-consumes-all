@@ -10,47 +10,18 @@ $(document.body).ready(() => {
 });
 
 $(function () {
-  $("#toggle-theme").on("click", function () {
-    let activeTheme = localStorage.getItem("theme") || "";
-    let newTheme = activeTheme === "light" ? "dark" : "light";
-
-    $(document.body).removeClass(activeTheme);
-    $(document.body).addClass(newTheme);
-    localStorage.setItem("theme", newTheme);
-    localStorage.setItem("userControlledTheme", "yes");
+  $("#toggl-menu").on("click", function() {
+    $("#hide-menu").toggleClass("hide");
+    $("#hide-user").toggleClass("hide");
   });
-});
-
-$(function () {
-  let activeTheme = localStorage.getItem("theme") || "";
-
-  if (activeTheme) {
-    $(document.body).addClass(activeTheme);
-  } else {
-    localStorage.setItem("theme", "light");
-    $(document.body).addClass("light");
-  }
-});
+})
 
 function scrollToTop(pos) {
   window.scrollTo({ top: pos, behavior: "smooth" });
 }
 
 $(function () {
-  let header = $(".swoop-menu");
-  $(window).scroll(function () {
-    let scroll = $(window).scrollTop();
-
-    if (scroll >= 855) {
-      header.addClass("swoop");
-    } else {
-      header.removeClass("swoop");
-    }
-  });
-});
-
-$(function () {
-  $("[data-title]").style_my_tooltips({
+  $("[title]").style_my_tooltips({
     tip_follows_cursor: true,
     tip_delay_time: 000,
     tip_fade_speed: 250,
