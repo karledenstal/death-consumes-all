@@ -1,1 +1,242 @@
 @import "init";
+
+.thrivin-categories {
+  width: 100%;
+  font-size: calc(var(--unit) * 2);
+  margin-bottom: 10rem;
+
+  a.cat-title {
+    display: inline-block;
+    font-family: var(--font3);
+    font-size: 85px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    &:after {
+      content: "";
+      background: var(--maingrad);
+      width: 70%;
+      height: 6px;
+      border-radius: 6px;
+      display: block;
+      transition: 0.25s all 0.05s ease;
+    }
+
+    &:hover {
+      &:after {
+        width: 100%;
+      }
+    }
+  }
+
+  .cat-boards {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+    .one {
+      width: 100%;
+      display: flex;
+      flex-flow: column wrap;
+
+      .sbs-board {
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        border: 1px solid #ddd;
+        margin-bottom: 2rem;
+        background: #fff;
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+
+        .board-img {
+          width: 300px;
+          padding: 15px;
+          background: #111;
+
+          .img-wrapper {
+            border: 1px solid #333;
+            background: linear-gradient(
+              to right,
+              rgba(var(--mclr), 1),
+              rgba(var(--hclr), 1),
+              rgba(var(--gclr), 1)
+            );
+            padding: 6px;
+
+            img {
+              width: 100%;
+              height: 400px;
+              object-fit: cover;
+              display: block;
+              border: 3px solid #111;
+            }
+          }
+        }
+
+        .board-title {
+          width: 748px;
+          display: flex;
+          flex-direction: column;
+
+          .title-separator {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .breakstats {
+              padding-right: 16px;
+              font-family: var(--font2);
+              font-size: 9px;
+              text-transform: uppercase;
+              letter-spacing: 1px;
+            }
+          }
+
+          .breakline {
+            width: 70%;
+            height: 6px;
+            border-radius: 3px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            background: linear-gradient(
+              to right,
+              rgba(var(--mclr), 1),
+              rgba(var(--hclr), 1),
+              rgba(var(--gclr), 1)
+            );
+          }
+
+          .title-area {
+            padding: 75px;
+            text-align: center;
+            width: 100%;
+
+            a.forum-title {
+              display: inline-block;
+              font-family: var(--font3);
+              text-transform: uppercase;
+              letter-spacing: 1px;
+              font-size: 50px;
+              color: #111;
+            }
+
+            .last-post {
+              font-family: var(--font2);
+              text-transform: uppercase;
+              letter-spacing: 1px;
+              font-size: 10px;
+              margin-top: 1rem;
+
+              i {
+                display: inline-block;
+                font-weight: 700;
+                padding-bottom: 4px;
+                background: linear-gradient(
+                    to right,
+                    rgba(var(--mclr), 1),
+                    rgba(var(--hclr), 1),
+                    rgba(var(--gclr), 1)
+                  )
+                  no-repeat bottom left/100% 1px;
+              }
+            }
+          }
+
+          .latest-poster {
+            width: 100%;
+            height: 182px;
+
+            .poster-details {
+              border-bottom: 1px solid #ddd;
+              padding: 25px 45px;
+              height: 158px;
+              display: flex;
+              flex-flow: row wrap;
+              align-items: center;
+              justify-content: space-between;
+
+              .latest-post {
+                width: 50%;
+
+                a.post-name {
+                  font-family: var(--font4);
+                  text-transform: lowercase;
+                  letter-spacing: 1px;
+                  font-size: 24px;
+
+                  span {
+                    background: linear-gradient(
+                        to right,
+                        rgba(var(--mclr), 1),
+                        rgba(var(--hclr), 1),
+                        rgba(var(--gclr), 1)
+                      )
+                      no-repeat bottom left/100% 1px;
+                  }
+                }
+
+                .posted-by {
+                  font-family: var(--font2);
+                  letter-spacing: 1px;
+                  text-transform: uppercase;
+                  font-size: 10px;
+                  margin-top: 1rem;
+
+                  a {
+                    display: inline-block;
+                    background: #111;
+                    padding: 2px 4px 1px 4px;
+                    border-radius: 2px;
+
+                    span {
+                      color: var(--x1);
+                    }
+                  }
+                }
+              }
+
+              .poster-img {
+                width: 50%;
+                text-align: right;
+                display: flex;
+                justify-content: flex-end;
+
+                .img-wrapper {
+                  width: 100px;
+                  height: 100px;
+                  border-radius: 100%;
+                  border: 1px solid var(--x1);
+                  padding: 1px;
+
+                  img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 100%;
+                    display: block;
+                  }
+                }
+              }
+            }
+
+            .addendum {
+              background: #fafafa;
+              padding: 5px;
+              font-family: var(--font2);
+              font-size: 9px;
+              letter-spacing: 1px;
+              text-transform: uppercase;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

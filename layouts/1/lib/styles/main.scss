@@ -16,14 +16,13 @@
     align-items: center;
 
     .some-links {
-      font-size: 22px;
+      font-size: 18px;
       text-transform: lowercase;
       font-style: italic;
 
       a {
         transition: 0.25s all 0.05s ease;
         font-family: var(--font4);
-        letter-spacing: 3px;
 
         &:after {
           display: inline-flex;
@@ -115,8 +114,8 @@
 
       .profile-welcome {
         font-family: var(--font4);
-        font-size: 37px;
-        letter-spacing: 3px;
+        font-size: 22px;
+        letter-spacing: 1px;
         margin-top: 1rem;
 
         a.name {
@@ -125,13 +124,13 @@
           text-transform: uppercase;
           letter-spacing: 1px;
           font-size: 20px;
-          margin-top: -1rem;
+          margin-top: 0.25rem;
           color: var(--x1);
         }
       }
 
       .profile-notifications {
-        margin-top: 2rem;
+        margin-top: 1.25rem;
         font-size: 10px;
         letter-spacing: 1px;
         text-transform: uppercase;
@@ -140,6 +139,15 @@
         a {
           color: var(--x2);
         }
+      }
+
+      .admin-cp {
+        display: inline-block;
+        margin-top: 1.25rem;
+        font-size: 10px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-family: var(--font2);
       }
     }
 
@@ -216,7 +224,7 @@
   }
 
   .thrivin-content {
-    padding: 45px;
+    padding: 75px;
     background: #f8f8f8;
   }
 }
