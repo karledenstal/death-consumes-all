@@ -1,5 +1,17 @@
 @import "init";
 
+select.forminput {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  color: #111;;
+  font-family: var(--font2);
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 4px 16px;
+  font-size: 1.25rem;
+}
+
 * {
   box-sizing: border-box;
   outline: 0;
@@ -53,39 +65,41 @@ body {
   font-family: var(--font3);
 }
 
-.mcp-0, .acp-0, .m-2 { display: none; } .g-2 { display: block !important; }
+.mcp-0,
+.acp-0,
+.m-2 {
+  display: none;
+}
+.g-2 {
+  display: block !important;
+}
 
 .maintitle {
   width: 100%;
-  background: var(--c1);
-  color: var(--color);
+  background: #fff;
+  color: #111;
   position: relative;
   padding: 6rem 0;
-  border: 1px solid var(--border);
+  border: 1px solid #ddd;
   text-align: center;
 
   .topic-title-space {
-    position: absolute;
-    top: 2rem;
-    left: 2rem;
-    background: var(--themeimg);
-    background-size: cover;
-    width: 35px;
-    height: 35px;
+    display: none;
   }
 
   .topic-title {
-    font-family: var(--font4);
+    font-family: var(--font3);
     padding: 7rem 0 2rem 0;
     margin-bottom: 2rem;
     display: inline-block;
-    font-size: 6rem;
+    font-size: 4rem;
     text-transform: uppercase;
-    background: var(--gr2) no-repeat bottom left/100% 5px;
+    background: var(--maingrad) no-repeat bottom left/100% 5px;
   }
 
   .topic-desc {
-    font-family: var(--font3);
+    display: block;
+    font-family: var(--font1);
     font-style: italic;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -95,7 +109,8 @@ body {
 }
 
 .postlinksbar {
-  background: #111 url("https://www.transparenttextures.com/patterns/fake-brick.png");
+  background: #111
+    url("https://www.transparenttextures.com/patterns/fake-brick.png");
   color: #111;
   padding: 2rem;
   text-align: center;
@@ -108,15 +123,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  
+
     a {
-      background: var(--c4);
+      background: #fff;
       border-radius: 2px;
-      padding: 1rem 2rem;
-      font-size: 1.25rem;
+      margin: 0 0.5rem;
+      padding: 0.5rem 1.25rem;
+      font-size: 1rem;
       text-transform: uppercase;
       letter-spacing: 1px;
-      font-family: var(--font3);
+      font-family: var(--font2);
     }
   }
 }

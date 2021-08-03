@@ -4,21 +4,18 @@ $(document.body).ready(() => {
   if (document.title.match(/->/i)) {
     document.title = document.title.split(" -> ")[1].toLowerCase();
   }
-
-  $(".gototop").on("click", () => scrollToTop(0));
-  $(".gotobottom").on("click", () => scrollToTop(document.body.scrollHeight));
 });
 
 $(function () {
-  $("#toggl-menu").on("click", function() {
-    $("#hide-menu").toggleClass("hide");
-    $("#hide-user").toggleClass("hide");
+  $(window).scroll(() => {
+    let nav = $("#userpanels");
+    if ($(this).scrollTop() > 850) {
+      nav.addClass("show");
+    } else {
+      nav.removeClass("show");
+    }
   });
 })
-
-function scrollToTop(pos) {
-  window.scrollTo({ top: pos, behavior: "smooth" });
-}
 
 $(function () {
   $("[title]").style_my_tooltips({
