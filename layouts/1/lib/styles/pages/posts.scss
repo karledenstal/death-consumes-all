@@ -1,1 +1,8 @@
 @import "../init";
+
+.thrivin-post {
+  width: 100%;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}

@@ -90,7 +90,7 @@ body {
   .topic-title {
     font-family: var(--font3);
     padding: 7rem 0 2rem 0;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     display: inline-block;
     font-size: 4rem;
     text-transform: uppercase;
@@ -99,9 +99,9 @@ body {
 
   .topic-desc {
     display: block;
-    font-family: var(--font1);
+    font-family: var(--font4);
     font-style: italic;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 1px;
     font-size: 1.5rem;
     margin-bottom: 7rem;
@@ -120,32 +120,52 @@ body {
 
   strong {
     font-weight: normal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    text-align: right;
 
     a {
       background: #fff;
       border-radius: 2px;
       margin: 0 0.5rem;
-      padding: 0.5rem 1.25rem;
-      font-size: 1rem;
+      padding: 8px 12px;
+      font-size: 10px;
       text-transform: uppercase;
       letter-spacing: 1px;
       font-family: var(--font2);
+
+      &:nth-child(1) {
+        background: var(--x4);
+      }
+
+      &:nth-child(2) {
+        background: var(--x5);
+      }
+
+      &:nth-child(3) {
+        display: none;
+      }
+
+      &:nth-child(4) {
+        display: none;
+      }
     }
   }
 }
 
 .button-large {
-  background: var(--c1) var(--gr2);
+  background: #fff var(--secgrad);
   display: inline-block;
-  border: 1px solid var(--border);
+  border: 1px solid #ddd;
   font-family: var(--font4);
-  color: #fff;
-  text-shadow: 0 0 1px #000;
-  text-transform: uppercase;
-  padding: 1rem 2rem;
+  color: #111;
+  font-size: 14px;
+  text-transform: lowercase;
+  padding: 12px 24px;
+  padding-top: 14px;
   border-radius: 3px;
   margin: 0.5rem;
+
+  &:hover {
+    background: #fff var(--addgrad);
+  }
 }

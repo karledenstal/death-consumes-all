@@ -92,7 +92,7 @@
     align-items: center;
 
     .some-links {
-      font-size: 18px;
+      font-size: 12px;
       text-transform: lowercase;
       font-style: italic;
 
@@ -194,9 +194,8 @@
 
       .profile-welcome {
         font-family: var(--font4);
-        font-size: 22px;
-        letter-spacing: 1px;
-        margin-top: 1rem;
+        font-size: 16px;
+        margin-top: 1.25rem;
 
         a.name {
           display: block;
