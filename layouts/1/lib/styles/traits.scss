@@ -1,0 +1,505 @@
+@import "init";
+
+.Unselected {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/ghost.png");
+}
+
+.Wild {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/wild.png");
+}
+
+.Wanderlust {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/wanderlust.png");
+}
+
+.Unflirty {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/unflirty.png");
+}
+
+.Trekkie {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/trekkie.png");
+}
+
+.Toxic {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/toxic.png");
+}
+
+.Tech.Challenged {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/tech_challenged.png");
+}
+
+.Tech.Addict {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/tech_addict.png");
+}
+
+.Toxic {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/toxic.png");
+}
+
+.Superstitious {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/superstitious.png");
+}
+
+.Stubborn {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/stubborn.png");
+}
+
+.Storyteller {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/storyteller.png");
+}
+
+.Stoner {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/stoner.png");
+}
+
+.Stalker {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/stalker.png");
+}
+
+.Squeamish {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/squeamish.png");
+}
+
+.Sports.Nerd {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/sports_nerd.png");
+}
+
+.Spiritual {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/spiritual.png");
+}
+
+.Song.Maestro {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/song_maestro.png");
+}
+
+.Socially.Awkward {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/socially_awkward.png");
+}
+
+.Snoop {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/snoop.png");
+}
+
+.Snob {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/snob.png");
+}
+
+.Slob {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/slob.png");
+}
+
+.Silly {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/silly.png");
+}
+
+.Shopaholic {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/shopaholic.png");
+}
+
+.Self.Assured {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/self_assured.png");
+}
+
+.Scare {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/scare_master.png");
+}
+
+.Sassy {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/sassy.png");
+}
+
+.Sarcastic {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/sarcastic.png");
+}
+
+.Romantic {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/romantic.png");
+}
+
+.Role.Model {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/role_model.png");
+}
+
+.Quick.Learner {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/quick_learner.png");
+}
+
+.Pure {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/pure.png");
+}
+
+.Proudly.LGBT {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/proudly_lgbt.png");
+}
+
+.Poetic {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/poetic.png");
+}
+
+.Photographer {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/photographer.png");
+}
+
+.Philanthropical {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/philanthropical.png");
+}
+
+.Perfectionist {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/perfectionist.png");
+}
+
+.Passionate {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/passionate.png");
+}
+
+.Party.Animal {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/party_animal.png");
+}
+
+.Paranoid {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/paranoid.png");
+}
+
+.Outgoing {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/outgoing.png");
+}
+
+.Noncommittal {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/noncommittal.png");
+}
+
+.Nonchalant {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/nonchalant.png");
+}
+
+.Nightowl {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/nightowl.png");
+}
+
+.Neat {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/neat.png");
+}
+
+.Natural.Leader {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/natural_leader.png");
+}
+
+.Narcissistic {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/narcissistic.png");
+}
+
+.Music.Lover {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/music_lover.png");
+}
+
+.Mediator {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/mediator.png");
+}
+
+.Mean {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/mean.png");
+}
+
+.Materialistic {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/materialistic.png");
+}
+
+.Master.Planner {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/master_planner.png");
+}
+
+.Manipulator {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/manipulator.png");
+}
+
+.Loves.Outdoors {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/loves_outdoors.png");
+}
+
+.Loner {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/loner.png");
+}
+
+.Loaded {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/loaded.png");
+}
+
+.Kleptomanic {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/kleptomanic.png");
+}
+
+.Jealous {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/jealous.png");
+}
+
+.Investor {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/investor.png");
+}
+
+.Insomniac {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/insomniac.png");
+}
+
+.Insider {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/insider.png");
+}
+
+.Inquisitive {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/inquisitive.png");
+}
+
+.Influencer {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/influencer.png");
+}
+
+.Independent {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/independent.png");
+}
+
+.Hypochondriac {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/hypochondriac.png");
+}
+
+.Hot.Headed {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/hot_headed.png");
+}
+
+.Holiday.Spirit {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/holiday_spirit.png");
+}
+
+.Hipster {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/hipster.png");
+}
+
+.Health.Concious {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/health_concious.png");
+}
+
+.Hates.Bugs {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/hates_bugs.png");
+}
+
+.Handy {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/handy.png");
+}
+
+.Hacker {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/hacker.png");
+}
+
+.Gregarious {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/gregarious.png");
+}
+
+.Goofball {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/goofball.png");
+}
+
+.Good {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/good.png");
+}
+
+.Glutton {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/glutton.png");
+}
+
+.Gloomy {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/gloomy.png");
+}
+
+.Giver {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/giver.png");
+}
+
+.Germophobe {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/germophobe.png");
+}
+
+.Genius {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/genius.png");
+}
+
+.Geek {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/geek.png");
+}
+
+.Gamer {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/gamer.png");
+}
+
+.Gambler {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/gambler.png");
+}
+
+.Fussy {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/fussy.png");
+}
+
+.Freethinker {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/freethinker.png");
+}
+
+.Family.Oriented {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/family_oriented.png");
+}
+
+.Erratic {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/erratic.png");
+}
+
+.Environmentally.Friendly {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/environmentally_friendly.png");
+}
+
+.Entertainer {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/entertainer.png");
+}
+
+.Eccentric {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/eccentric.png");
+}
+
+.Dunce {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/dunce.png");
+}
+
+.Drama.Queen {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/drama_queen.png");
+}
+
+.Diva {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/diva.png");
+}
+
+.Depressed {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/depressed.png");
+}
+
+.Deceiver {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/deceiver.png");
+}
+
+.Daydreamer {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/daydreamer.png");
+}
+
+.Dance.Machine {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/dance_machine.png");
+}
+
+.Cultured {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/cultured.png");
+}
+
+.Creative {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/creative.png");
+}
+
+.Crazy {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/crazy.png");
+}
+
+.Conspiracy.Theorist {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/conspiracy_theorist.png");
+}
+
+.Companion {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/companion.png");
+}
+
+.Comic.Nerd {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/comic_nerd.png");
+}
+
+.Comfortable {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/comfortable.png");
+}
+
+.Collector {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/collector.png");
+}
+
+.Clumsy {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/clumsy.png");
+}
+
+.Clingy {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/clingy.png");
+}
+
+.Cinephile {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/cinephile.png");
+}
+
+.Childish {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/childish.png");
+}
+
+.Cheerful {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/cheerful.png");
+}
+
+.Charmer {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/charmer.png");
+}
+
+.Caring {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/caring.png");
+}
+
+.Business.Savvy {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/business_savvy.png");
+}
+
+.Bro {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/bro.png");
+}
+
+.Bossy {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/bossy.png");
+}
+
+.Borderline {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/borderline.png");
+}
+
+.Bookworm {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/bookworm.png");
+}
+
+.Astrology.Freak {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/astrology_freak.png");
+}
+
+.Artistic {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/artistic.png");
+}
+
+.Art.Lover {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/art_lover.png");
+}
+
+.Angelic {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/angelic.png");
+}
+
+.Anarchist {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/anarchist.png");
+}
+
+.Ambitious {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/ambitious.png");
+}
+
+.Alluring {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/alluring.png");
+}
+
+.Active {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/active.png");
+}
+
+.Academic {
+  background-image: url("https://files.jcink.net/uploads2/thrivinrp/traits/academic.png");
+}

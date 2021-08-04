@@ -109,13 +109,12 @@ body {
 }
 
 .postlinksbar {
-  background: #111
-    url("https://www.transparenttextures.com/patterns/fake-brick.png");
-  color: #111;
+  background: #fff;
+  color: #fff;
   padding: 2rem;
   text-align: center;
   margin-bottom: 2rem;
-  border: 1px solid var(--border);
+  border: 1px solid #ddd;
   border-top: 0;
 
   strong {
@@ -124,7 +123,8 @@ body {
     text-align: right;
 
     a {
-      background: #fff;
+      background: #111;
+      color: #fff;
       border-radius: 2px;
       margin: 0 0.5rem;
       padding: 8px 12px;

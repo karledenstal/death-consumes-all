@@ -49,8 +49,8 @@
   --x2: #ff6523;
   --x3: #ff3e8b;
   --name: "Sun";
-  --ani: url("../groups/sun.gif");
-  --emo: url("../groups/sun_still.png");
+  --ani: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/sun.gif");
+  --emo: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/sun_still.png");
 }
 
 .moon,
@@ -63,8 +63,8 @@
   --x2: #ad87df;
   --x3: #8ce2a1;
   --name: "Moon";
-  --ani: url("../groups/moon.gif");
-  --emo: url("../groups/moon_still.png");
+  --ani: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/moon.gif");
+  --emo: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/moon_still.png");
 }
 
 .mercury,
@@ -77,8 +77,8 @@
   --x2: #ff0086;
   --x3: #ff1412;
   --name: "Mercury";
-  --ani: url("../groups/mercury.gif");
-  --emo: url("../groups/mercury_still.png");
+  --ani: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/mercury.gif");
+  --emo: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/mercury_still.png");
 }
 
 .venus,
@@ -91,8 +91,8 @@
   --x2: #9a79e2;
   --x3: #3067cb;
   --name: "Venus";
-  --ani: url("../groups/venus.gif");
-  --emo: url("../groups/venus_still.png");
+  --ani: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/venus.gif");
+  --emo: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/venus_still.png");
 }
 
 .mars,
@@ -105,8 +105,8 @@
   --x2: #9e0255;
   --x3: #ffd528;
   --name: "Mars";
-  --ani: url("../groups/mars.gif");
-  --emo: url("../groups/mars_still.png");
+  --ani: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/mars.gif");
+  --emo: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/mars_still.png");
 }
 
 .jupiter,
@@ -119,8 +119,8 @@
   --x2: #ffce39;
   --x3: #ff0097;
   --name: "Jupiter";
-  --ani: url("../groups/jupiter.gif");
-  --emo: url("../groups/jupiter_still.png");
+  --ani: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/jupiter.gif");
+  --emo: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/jupiter_still.png");
 }
 
 .saturn,
@@ -133,8 +133,8 @@
   --x2: #a15050;
   --x3: #4e4376;
   --name: "Jupiter";
-  --ani: url("../groups/saturn.gif");
-  --emo: url("../groups/saturn_still.png");
+  --ani: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/saturn.gif");
+  --emo: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/saturn_still.png");
 }
 
 .uranus,
@@ -147,8 +147,8 @@
   --x2: #7e6ba8;
   --x3: #f7e767;
   --name: "Uranus";
-  --ani: url("../groups/uranus.gif");
-  --emo: url("../groups/uranus_still.png");
+  --ani: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/uranus.gif");
+  --emo: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/uranus_still.png");
 }
 
 .neptune,
@@ -161,8 +161,8 @@
   --x2: #aa7bb3;
   --x3: #8e3663;
   --name: "Neptune";
-  --ani: url("../groups/neptune.gif");
-  --emo: url("../groups/neptune_still.png");
+  --ani: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/neptune.gif");
+  --emo: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/neptune_still.png");
 }
 
 .pluto,
@@ -175,6 +175,21 @@
   --x2: #ffb68d;
   --x3: #55ccd4;
   --name: "Pluto";
-  --ani: url("../groups/pluto.gif");
-  --emo: url("../groups/pluto_still.png");
+  --ani: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/pluto.gif");
+  --emo: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/pluto_still.png");
+}
+
+.admin,
+.g-4,
+#g-4 {
+  --mclr: 113, 199, 135;
+  --hclr: 242, 227, 131;
+  --gclr: 242, 148, 148;
+  --x1: #71c787;
+  --x2: #f2e383;
+  --x3: #f29494;
+  --desc: "Admin";
+  --name: "Admin";
+  --ani: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/admin.gif");
+  --emo: url("https://files.jcink.net/uploads2/thrivinrp/group_emojis/admin_still.png");
 }
