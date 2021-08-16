@@ -47,7 +47,7 @@ Venus
 --x3: #cb927f;
 
 - Harmonious
-- Materliastic
+- Materialistic
 - Relationship oriented
 
 Mars

@@ -139,15 +139,15 @@
 
       li.rt-item {
         width: 100%;
-        background: var(--secgrad);
-        padding: 6px;
+        background: var(--maingrad);
+        padding-left: 6px;
         margin-bottom: 1rem;
 
         .rt-wrap {
-          background: #fff;
-          border-radius: 3px;
-          padding: 14px 12px;
+          background: #111;
+          padding: 24px;
           font-family: var(--font2);
+          color: #fff;
           font-size: 9px;
           text-transform: uppercase;
 
@@ -155,13 +155,15 @@
             display: block;
             font-family: var(--font4);
             text-transform: lowercase;
+            letter-spacing: 0;
             font-size: 16px;
+            color: #fff;
             margin-bottom: 0.5rem;
           }
 
           a.rt-user {
             color: rgba(var(--c3), 1);
-            background: #111;
+            background: #fff;
             padding: 2px 4px 1px 4px;
             border-radius: 3px;
           }

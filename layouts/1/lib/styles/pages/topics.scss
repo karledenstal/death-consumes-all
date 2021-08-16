@@ -1,5 +1,11 @@
 @import "../init";
 
+.subhead {
+  font-family: var(--font4);
+  margin: 2rem 0;
+  text-transform: lowercase;
+}
+
 .thrivin-categories {
   width: 100%;
   font-size: calc(var(--unit) * 2);

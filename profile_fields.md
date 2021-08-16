@@ -18,19 +18,6 @@ Zodiac
   - Scorpio
   - Sagittarius
   - Capricorn
-Chinese Zodiac (profile only)
-  - Rat
-  - Ox
-  - Tiger
-  - Rabbit
-  - Dragon
-  - Snake
-  - Horse
-  - Goat
-  - Monkey
-  - Rooster
-  - Dog
-  - Pig
 Birthplace (profile only)
 Residence (profile only)
 Mood (profile only)
