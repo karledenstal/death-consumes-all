@@ -1,30 +1,3 @@
-@import "../init";
-
-.jquery-search {
-  margin: 6rem;
-  margin-top: 0;
-  background: var(--c1);
-  width: calc(100% - 12rem);
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-
-  input[type=text] {
-    border: 0;
-    flex: 1;
-    background: var(--c1);
-    color: var(--color);
-    font-family: var(--font3);
-    padding: 2rem;
-  }
-
-  img {
-    width: 25px;
-    height: 25px;
-    margin-right: 2rem;
-    object-fit: cover;
-  }
-}
 
 .isotope-filter-selection {
   display: flex;
@@ -48,10 +21,10 @@
     font-family: var(--font3);
     font-size: 1.5rem;
     text-transform: uppercase;
-    padding: 4px 16px;
+    padding: 4px 8px;
     background: var(--c1);
-    border: 1px solid var(--border);
-    color: var(--color);
+    border: 1px solid #ddd;
+    color: #111;
     text-align: center;
   }
 }
@@ -59,12 +32,12 @@
 .member-list-grid {
   width: 1200px;
   flex: 1;
-  margin-left: -4rem;
-  margin-bottom: -4rem;
-  border: 75px solid var(--accent);
+  margin-left: -75px;
+  margin-bottom: -75px;
+  border: 75px solid #111;
   border-top-width: 125px;
   border-bottom-width: 125px;
-  background: var(--accent);
+  background: #111;
   min-height: 20px!important;
   max-height: 1050px!important;
   overflow-x: hidden;
@@ -74,9 +47,10 @@
   justify-content: space-between;
 
   .item {
-    width: 240px;
-    margin-right: 3rem;
-    margin-bottom: 3rem;
+    width: 330px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
     border-radius: 3px;
     padding: 1rem;
     background: linear-gradient(
@@ -89,35 +63,36 @@
     .item-inner-wrap {
       width: 100%;
       border-radius: 3px;
-      background: var(--c1);
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       align-items: center;
 
       .item-player {
-        background: var(--secondary);
-        border-top: 1px solid var(--border);
+        border-top: 1px solid #111;
         width: 100%;
         padding: 1rem;
         display: flex;
+        align-items: center;
         flex-flow: row wrap;
         justify-content: space-between;
-        font-family: var(--font3);
-        font-size: 1.25rem;
-        text-transform: uppercase;
-        letter-spacing: 1px;
+        font-family: var(--font4);
+        font-size: 12px;
+        text-transform: lowercase;
 
         .group {
           font-weight: bold;
-          color: var(--hex2);
+          background-image: var(--ani);
+          width: 35px;
+          height: 35px;
+          background-size: cover;
         }
       }
 
       .item-av {
-        width: 150px;
-        height: 150px;
-        border: 1px solid var(--hex3);
+        width: 175px;
+        height: 175px;
+        border: 1px solid #111;
         border-radius: 100%;
         padding: 1rem;
 
@@ -130,24 +105,31 @@
       }
 
       .item-name {
-        margin-top: 2rem;
-        font-family: var(--font4);
+        margin-top: 3rem;
+        font-family: var(--font3);
         font-size: 2rem;
         text-transform: uppercase;
-        letter-spacing: 1px;
         margin-bottom: 2rem;
+        color: #111;
 
         a {
           display: inline-block;
-          border-bottom: 1px solid var(--color);
+          font-family: inherit;
+          border-bottom: 1px solid #111;
         }
       }
 
       .guide-link {
         border-radius: 3px;
-        padding: 0.5rem 1rem;
-        background: var(--color);
-        color: var(--c1);
+        padding: 1rem;
+        background: #111;
+        color: #fff;
+        display: block;
+        width: 100%;
+
+        &:first-of-type {
+          margin-bottom: 1rem;
+        }
       }
 
       .item-info {
@@ -155,6 +137,8 @@
         text-align: center;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         font-family: var(--font3);
         font-size: 1.25rem;
         text-transform: uppercase;
